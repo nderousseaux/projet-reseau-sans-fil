@@ -24,3 +24,6 @@
 
     Sur un autre terminal : 
         nc localhost 20000
+
+## Lancer une expérience. 
+    iotlab-experiment submit -n <EXPERIMENT NAME> -d <DURATION IN MINS> -l <SITE NAME, ARCHI, NODES ID LIST, FIRMWARE FILE NAME PROFILE FILE NAME>
