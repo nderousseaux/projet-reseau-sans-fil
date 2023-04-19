@@ -14,11 +14,18 @@
 
 - Brouillon_Rapport.md  
   
-- CLI.md (Note des commandes utilile pour le depoloiement des noeuds et etc )  
+- CLI.md (Note des commandes utilile pour le deploiement des noeuds et etc)  
 
 - Tuto.md (Deroulement bête des exo du TP)  
   
 - hello-world.iotlab (Premier firmware compliler par mes soins)  
+
+- Rapport_journalier.md : Décrit l'avancer du projet au fure et à mesure.
+
+- Node_file 
+
+- Programme 
+
 
 ## Chemin du fichier de l'exo4 
 wifi2023stras4@strasbourg:~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/examples/ex4
@@ -34,5 +41,3 @@ Parce que sinon ça plot pas frere
 
 Rapport à rediger
 Pour le 5 mai
-
-NIQUE LES CANINES ET LES STUPS
