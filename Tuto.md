@@ -23,6 +23,12 @@ Avoir un contiki firmware compiler : [Lien](https://www.iot-lab.info/legacy/tuto
     Pour lancer l'experience :
         Browse le firmware depuis mon pc.
 
+`Commande pour lancer une hello-world :`
+
+    iotlab-experiment submit -d 60 -l 2,archi=m3:at86rf231+site=strasbourg,firmware=hello-world.iotlab
+
+
+
 # Exercice 3
 
 ## Ce premier tutoriel vous montre comment surveiller la consommation d’énergie :
@@ -62,12 +68,12 @@ Chemin contenant l'ex4 :
 Envoie périodiquement un datagramme `UDP` au coordinateur de PAN. Ce programme doit utiliser `IPv6`, le protocole de routage `RPL` et `TSCH` au niveau MAC. L’ordonnancement TSCH doit être réalisé avec `Orchestra`. Vous pouvez utiliser la configuration par défaut d’Orchestra.
 
 ## Coordinateur
-joue le rôle de coordinateur de PAN 802.15.4. Pour chaque datagramme UDP reçu, il répond par un nouveau datagramme UDP à l’expéditeur. Ce programme utilise IPv6, le protocole de routage RPL (il fera office de racine de l’arbre de routage) et TSCH au niveau MAC. L’ordonnancement TSCH doit être réalisé avec Orchestra. Vous pouvez utiliser la configuration
+Joue le rôle de `coordinateur de PAN` 802.15.4. Pour chaque datagramme UDP reçu, il répond par un nouveau datagramme UDP à l’expéditeur. Ce programme utilise IPv6, le protocole de routage RPL (il fera office de racine de l’arbre de routage) et TSCH au niveau MAC. L’ordonnancement TSCH doit être réalisé avec Orchestra. Vous pouvez utiliser la configuration
 par défaut d’Orchestra.
 
 ## Lancement de l'experience : 
 
-    iotlab-experiment submit -n  -d <DURATION IN MINS> -l <SITE NAME, ARCHI, NODES ID LIST, FIRMWARE FILE NAME PROFILE FILE NAME>
+    iotlab-experiment submit -d 60 -l 1,archi=m3:at86rf231+site=strasbourg,firmware=coordinator.iotlab -l 1,archi=m3:at86rf231+site=strasbourg,firmware=sender.iotlab
 
 ## Remarques
 

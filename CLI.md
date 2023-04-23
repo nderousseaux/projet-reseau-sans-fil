@@ -1,5 +1,7 @@
 # Fiche des commandes CLI utile 
 
+[Lien TUTO CLI](https://iot-lab.github.io/docs/tools/cli/)
+
 ## Attendez que votre expérience soit lancée via la commande
 
     iotlab-experiment wait
@@ -27,3 +29,7 @@
 
 ## Lancer une expérience. 
     iotlab-experiment submit -n <EXPERIMENT NAME> -d <DURATION IN MINS> -l <SITE NAME, ARCHI, NODES ID LIST, FIRMWARE FILE NAME PROFILE FILE NAME>
+
+Exemple :
+
+    iotlab-experiment submit -d 60 -l 5,archi=m3:at86rf231+site=grenoble,sensors-collecting.iotlab-m3 --site-association grenoble,script=aggregator_script

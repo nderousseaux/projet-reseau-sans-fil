@@ -12,19 +12,24 @@
 
  ## Fichier
 
+- Node_file
+  - hello-world.iotlab (Premier firmware compliler par mes soins)
+  - tutorial_m3.elf  
+
+- Programme 
+  - tsch_orchestra (ex4 pas modifié)  
+
 - Brouillon_Rapport.md  
   
 - CLI.md (Note des commandes utilile pour le deploiement des noeuds et etc)  
 
-- Tuto.md (Deroulement bête des exo du TP)  
-  
-- hello-world.iotlab (Premier firmware compliler par mes soins)  
+- Ex5.md (Description de l'exercice 5)
 
 - Rapport_journalier.md : Décrit l'avancer du projet au fure et à mesure.
 
-- Node_file 
+- Explications.md : Explications du prof sur la documentation à lire
 
-- Programme 
+- Tuto.md (Deroulement bête des exo du TP)
 
 
 ## Chemin du fichier de l'exo4 
