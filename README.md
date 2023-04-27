@@ -12,29 +12,35 @@
 
  ## Fichier
 
+- CLI (Note des commandes utile pour le deploiement des noeuds et etc)  
+
 - Node_file
   - hello-world.iotlab (Premier firmware compliler par mes soins)
   - tutorial_m3.elf  
 
 - Programme 
   - tsch_orchestra (ex4 pas modifié)  
+  - Comprendre (ex4 modifié juste pour comprendre ce qu'il fait)
+
+- Scénarios (Les differents scénarios de simulations sont dans ce dossier)
 
 - Brouillon_Rapport.md  
-  
-- CLI.md (Note des commandes utilile pour le deploiement des noeuds et etc)  
 
-- Ex5.md (Description de l'exercice 5)
+- Ex5_description.md (Description de l'exercice 5)
+
+- Explications.md : Explications du prof sur la documentation à lire
 
 - Rapport_journalier.md : Décrit l'avancer du projet au fure et à mesure.
 
-- Explications.md : Explications du prof sur la documentation à lire
+- README.md
 
 - Tuto.md (Deroulement bête des exo du TP)
 
 
 ## Chemin du fichier de l'exo4 
-wifi2023stras4@strasbourg:~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/examples/ex4
-
+wifi2023stras4@strasbourg:
+  
+  ~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/examples/tsch-orchestra
 
 ## Erreur frequente
 
