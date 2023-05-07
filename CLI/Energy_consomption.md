@@ -6,6 +6,9 @@
 ## CLI
 [Lien tuto](https://iot-lab.github.io/docs/tools/consumption-monitoring/)
 
+Pour les graph : 
+   ssh -X wifi2023stras4@strasbourg.iot-lab.info
+
 Exemple : 
 
     Monitor consumption: current, voltage and power.

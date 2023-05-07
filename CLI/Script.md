@@ -14,6 +14,10 @@
 
     ~/.iot-lab/367354
 
+## SCP 
+
+    scp -r wifi2023stras4@strasbourg.iot-lab.info:<chemin> .
+
 ## commande ssh isolé 
     ssh utilisateur@hôte "commande"
 
