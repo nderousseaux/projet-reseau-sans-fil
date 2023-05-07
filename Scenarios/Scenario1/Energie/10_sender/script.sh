@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "lancement du scénario 1"
+echo "lancement du scénario 1 avec 1 coordinateur pour 10 senders "
 
 #Racine des scénarios
 RACINE=/senslab/users/wifi2023stras4
@@ -19,7 +19,7 @@ SENDER=$RACINE/$EXP_PATH/$FILE_EXPERIENCE/build/iotlab/m3/sender.iotlab
 
 #Parametre de l'experience 
 Nb_coordinateur=1
-Nb_sender=1
+Nb_sender=10
 
 #Duree de l'experience en minute
 Duree=10

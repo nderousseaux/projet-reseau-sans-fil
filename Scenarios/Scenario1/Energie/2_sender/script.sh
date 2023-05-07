@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "lancement du scénario 1"
+echo "lancement du scénario 1 avec 5 sender et 1 coordinateur"
 
 #Racine des scénarios
 RACINE=/senslab/users/wifi2023stras4
@@ -19,7 +19,7 @@ SENDER=$RACINE/$EXP_PATH/$FILE_EXPERIENCE/build/iotlab/m3/sender.iotlab
 
 #Parametre de l'experience 
 Nb_coordinateur=1
-Nb_sender=1
+Nb_sender=2
 
 #Duree de l'experience en minute
 Duree=10
@@ -27,6 +27,7 @@ Duree=10
 #Lancement du scénario
 
 # 1 sender
+echo $Nb_sender
 RETOUR=$(ssh wifi2023stras4@strasbourg.iot-lab.info "iotlab-experiment submit -d $Duree -l $Nb_coordinateur,archi=m3:at86rf231+site=strasbourg,$COORDINATOR,$PROFILE_NAME -l $Nb_sender,archi=m3:at86rf231+site=strasbourg,$SENDER,$PROFILE_NAME")
 ID=$(echo $RETOUR | grep -oP '(?<="id": )\d+')
 

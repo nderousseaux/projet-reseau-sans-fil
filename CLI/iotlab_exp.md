@@ -28,7 +28,7 @@
     iotlab-experiment get
 
 L'option `-n`   pour afficher les noms des experiences.   
-L'option `-p`   pour afficher les ressources utilisées par votre expérience. 
+L'option `-p`   pour afficher les ressources utilisées par votre expérience.  
 L'option `-i`   pour focus une exp-id en particulier.  
 L'option `-ni`  pour afficher quelles nodes sont utilisé pour l'experience.  
 
