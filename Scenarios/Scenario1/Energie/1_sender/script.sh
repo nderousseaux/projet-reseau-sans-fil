@@ -33,7 +33,6 @@ ID=$(echo $RETOUR | grep -oP '(?<="id": )\d+')
 ssh wifi2023stras4@strasbourg.iot-lab.info "iotlab-experiment wait -i $ID"
 
 #Attente de la fin du scénario
-
 total_time=$((60*$Duree))    # Durée totale d'attente en secondes (10 minutes)
 interval=60                 # Intervalle de temps entre chaque affichage en secondes (1 minute)
 elapsed_time=0              # Temps écoulé en secondes
