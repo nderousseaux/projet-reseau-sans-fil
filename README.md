@@ -50,6 +50,10 @@ wifi2023stras4@strasbourg:
 
     ~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng
 
+## Chemin pour orchestra.conf
+
+  ~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/os/services/orchestra/orchestra-conf.h 
+
 ## Erreur frequente
 
 - Noublie pas l'option "-X" quand tu te co en ssh pour plot
