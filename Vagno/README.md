@@ -10,6 +10,9 @@
         ssh wifi2023stras4@strasbourg.iot-lab.info
         iotlab-auth -u wifi2023stras4 // Ecrire le password
 
+    Pour les graph : 
+       ssh -X wifi2023stras4@strasbourg.iot-lab.info
+
  ## Fichier
 
 - CLI (Note des commandes utile pour le deploiement des noeuds et etc)  
@@ -30,17 +33,22 @@
 
 - Explications.md : Explications du prof sur la documentation à lire
 
+- Questions.md (Deroulement bête des exo du TP)
+
 - Rapport_journalier.md : Décrit l'avancer du projet au fure et à mesure.
 
 - README.md
 
-- Tuto.md (Deroulement bête des exo du TP)
-
 
 ## Chemin du fichier de l'exo4 
+
 wifi2023stras4@strasbourg:
   
-  ~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/examples/tsch-orchestra
+    ~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/examples/tsch-orchestra
+
+## Chemin pour contiki-ng
+
+    ~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng
 
 ## Erreur frequente
 
