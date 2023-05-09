@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "lancement du scénario 1"
 
 #Racine des scénarios
 RACINE=/senslab/users/wifi2023stras4
@@ -9,7 +10,7 @@ PLOT=$RACINE/.iot-lab/$ID
 EXP_PATH=/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/examples 
 
 #Nom du fichier contenant le scénarios
-FILE_EXPERIENCE=tsch-orchestra
+FILE_EXPERIENCE=scenario1
 PROFILE_NAME=profile1
 
 #Chemin des execuables
@@ -19,17 +20,19 @@ SENDER=$RACINE/$EXP_PATH/$FILE_EXPERIENCE/build/iotlab/m3/sender.iotlab
 #Parametre de l'experience 
 Nb_coordinateur=1
 Nb_sender=1
-Duree=1
+
+#Duree de l'experience en minute
+Duree=10
 
 #Lancement du scénario
+
+# 1 sender
 RETOUR=$(ssh wifi2023stras4@strasbourg.iot-lab.info "iotlab-experiment submit -d $Duree -l $Nb_coordinateur,archi=m3:at86rf231+site=strasbourg,$COORDINATOR,$PROFILE_NAME -l $Nb_sender,archi=m3:at86rf231+site=strasbourg,$SENDER,$PROFILE_NAME")
-
 ID=$(echo $RETOUR | grep -oP '(?<="id": )\d+')
-echo $ID
 
-#Attendre la fin du scénario
+ssh wifi2023stras4@strasbourg.iot-lab.info "iotlab-experiment wait -i $ID"
 
-#Attente 
+#Attente de la fin du scénario
 
 total_time=$((60*$Duree))    # Durée totale d'attente en secondes (10 minutes)
 interval=60                 # Intervalle de temps entre chaque affichage en secondes (1 minute)
@@ -55,5 +58,5 @@ echo "Attente terminée."
 
 
 #Récupération des résultats brutes.
-
+sleep 1
 scp -r wifi2023stras4@strasbourg.iot-lab.info:~/.iot-lab/$ID .
