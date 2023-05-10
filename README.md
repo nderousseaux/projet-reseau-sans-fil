@@ -52,7 +52,7 @@ wifi2023stras4@strasbourg:
 
 ## Chemin pour orchestra.conf
 
-  ~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/os/services/orchestra/orchestra-conf.h 
+    ~/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/os/services/orchestra/orchestra-conf.h 
 
 ## Erreur frequente
 
