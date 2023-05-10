@@ -67,4 +67,3 @@
 - Nb noeuds : 5
 - Proto mac : TSCH
 - Taille des slots : 1000
-
