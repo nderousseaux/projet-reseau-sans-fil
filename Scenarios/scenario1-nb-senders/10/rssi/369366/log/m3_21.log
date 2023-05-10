@@ -1,0 +1,27 @@
+2023-05-10 18:49:58,525 :: INFO :: Start experiment: wifi2023stras4-369366
+2023-05-10 18:49:58,529 :: INFO :: Control node : Starting of control node serial interface
+2023-05-10 18:49:58,532 :: INFO :: Control node : reset
+2023-05-10 18:49:58,535 :: INFO :: Reset Control Node
+2023-05-10 18:50:01,336 :: INFO :: Control node : start power of open node
+2023-05-10 18:50:01,350 :: INFO :: Node OpenOCD: Setup of openocd node
+2023-05-10 18:50:04,366 :: INFO :: Node OpenOCD: flash of openocd node
+2023-05-10 18:50:04,372 :: INFO :: Flash firmware on OpenOCD: /tmp/tmp3omfjewz--b2126b5f5f395b4661a2c94138a4a879_sender.iotlab
+2023-05-10 18:50:13,836 :: INFO :: Control node : Start experiment
+2023-05-10 18:50:13,914 :: INFO :: Control Node set time delay: 7955 us
+2023-05-10 18:50:13,942 :: INFO :: Control node : profile configuration
+2023-05-10 18:50:13,945 :: INFO :: Configure profile on Control Node
+2023-05-10 18:50:14,011 :: INFO :: Start experiment succeeded
+2023-05-10 19:00:18,376 :: INFO :: Gateway Manager : Stop experiment
+2023-05-10 19:00:18,381 :: INFO :: Stop experiment
+2023-05-10 19:00:18,385 :: INFO :: Control node : stop of the experiment
+2023-05-10 19:00:18,392 :: INFO :: Control node : profile configuration
+2023-05-10 19:00:18,395 :: INFO :: Configure profile on Control Node
+2023-05-10 19:00:18,444 :: INFO :: Control node : start power of open node
+2023-05-10 19:00:18,473 :: INFO :: Node OpenOCD: teardown of openocd node
+2023-05-10 19:00:21,487 :: INFO :: openocd node debugger stop
+2023-05-10 19:00:22,108 :: INFO :: Node OpenOCD: flash of openocd node
+2023-05-10 19:00:22,111 :: INFO :: Flash firmware on OpenOCD: /usr/lib/python3.8/site-packages/gateway_code/static/m3_idle.elf
+2023-05-10 19:00:24,266 :: INFO :: Control node : Stop control node serial interface
+2023-05-10 19:00:24,271 :: INFO :: Control node : stop power of open node
+2023-05-10 19:00:24,327 :: INFO :: Control node : reset
+2023-05-10 19:00:24,332 :: INFO :: Reset Control Node
