@@ -1,0 +1,13 @@
+2023-05-11 18:58:22,448 :: INFO :: Start experiment: wifi2023stras4-369670
+2023-05-11 18:58:22,452 :: INFO :: Control node : Starting of control node serial interface
+2023-05-11 18:58:22,455 :: INFO :: Control node : reset
+2023-05-11 18:58:22,458 :: INFO :: Reset Control Node
+2023-05-11 18:58:25,260 :: INFO :: Control node : start power of open node
+2023-05-11 18:58:25,289 :: INFO :: Node OpenOCD: Setup of openocd node
+2023-05-11 18:58:28,303 :: INFO :: Node OpenOCD: flash of openocd node
+2023-05-11 18:58:28,309 :: INFO :: Flash firmware on OpenOCD: /tmp/tmpdpnkb_gm--bdfae9239ff77cc4b4d2dd197a4bc360_coordinator.iotlab
+2023-05-11 18:58:37,774 :: INFO :: Control node : Start experiment
+2023-05-11 18:58:37,851 :: INFO :: Control Node set time delay: 3479 us
+2023-05-11 18:58:37,880 :: INFO :: Control node : profile configuration
+2023-05-11 18:58:37,895 :: INFO :: Configure profile on Control Node
+2023-05-11 18:58:37,956 :: INFO :: Start experiment succeeded
