@@ -6,7 +6,7 @@ echo "lancement du scénario 1"
 NAME_EXP="TSCH_RADIO_1V10"
 
 #Nom du fichier contenant le scénarios
-FILE_EXPERIENCE=scenario1
+FILE_EXPERIENCE=tsch-orchestra
 PROFILE_NAME=TSCH_HOPPING_SEQUENCE_4_4
 
 #Parametre de l'experience 

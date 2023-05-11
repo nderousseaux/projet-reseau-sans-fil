@@ -1,39 +1,39 @@
 #!/bin/bash
 
-echo "lancement du scénario 1 avec 1 coordinateur pour 10 senders "
+echo "lancement du scénario 1"
+
+#Nom de l'experience
+NAME_EXP="TSCH_power_1V10"
+
+#Nom du fichier contenant le scénarios
+FILE_EXPERIENCE=tsch-orchestra
+PROFILE_NAME=Energy
+
+#Parametre de l'experience 
+Nb_coordinateur=1
+Nb_sender=10
 
 #Racine des scénarios
 RACINE=/senslab/users/wifi2023stras4
 
 #Chemin des resultats brutes.
-PLOT=$RACINE/.iot-lab/$ID
 EXP_PATH=/iot-lab/parts/iot-lab-contiki-ng/contiki-ng/examples 
-
-#Nom du fichier contenant le scénarios
-FILE_EXPERIENCE=scenario1
-PROFILE_NAME=profile1
 
 #Chemin des execuables
 COORDINATOR=$RACINE/$EXP_PATH/$FILE_EXPERIENCE/build/iotlab/m3/coordinator.iotlab
 SENDER=$RACINE/$EXP_PATH/$FILE_EXPERIENCE/build/iotlab/m3/sender.iotlab
-
-#Parametre de l'experience 
-Nb_coordinateur=1
-Nb_sender=10
 
 #Duree de l'experience en minute
 Duree=10
 
 #Lancement du scénario
 
-# 1 sender
-RETOUR=$(ssh wifi2023stras4@strasbourg.iot-lab.info "iotlab-experiment submit -d $Duree -l $Nb_coordinateur,archi=m3:at86rf231+site=strasbourg,$COORDINATOR,$PROFILE_NAME -l $Nb_sender,archi=m3:at86rf231+site=strasbourg,$SENDER,$PROFILE_NAME")
+RETOUR=$(ssh wifi2023stras4@strasbourg.iot-lab.info "iotlab-experiment submit -n $NAME_EXP -d $Duree -l $Nb_coordinateur,archi=m3:at86rf231+site=strasbourg,$COORDINATOR,$PROFILE_NAME -l $Nb_sender,archi=m3:at86rf231+site=strasbourg,$SENDER,$PROFILE_NAME")
 ID=$(echo $RETOUR | grep -oP '(?<="id": )\d+')
 
 ssh wifi2023stras4@strasbourg.iot-lab.info "iotlab-experiment wait -i $ID"
 
 #Attente de la fin du scénario
-
 total_time=$((60*$Duree))    # Durée totale d'attente en secondes (10 minutes)
 interval=60                 # Intervalle de temps entre chaque affichage en secondes (1 minute)
 elapsed_time=0              # Temps écoulé en secondes
