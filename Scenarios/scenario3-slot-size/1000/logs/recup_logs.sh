@@ -48,7 +48,7 @@ ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-61.strasbourg.iot-lab.info 200
 ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-62.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender2.txt & " &
 ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-63.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender3.txt & " &
 ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-64.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender4.txt & " &
-ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-59.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender4.txt & " &
+ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-59.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender5.txt & " &
 echo "Demarrage de la récupération des logs en arriere plan"
 
 #Attente de la fin du scénario
