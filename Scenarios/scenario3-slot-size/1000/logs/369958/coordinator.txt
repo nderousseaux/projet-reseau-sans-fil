@@ -1,0 +1,2125 @@
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 65, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000002de link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  65, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 79 (100)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 207
+[INFO: RPL       ] received a unicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 65535
+[INFO: TSCH-LOG  ] {asn 00.000003a5 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len 100, seq 207, edr   0
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 207, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 66, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000003ff link  2  31   0  0  1 ch 15} bc-1-0 tx LL-a686->LL-NULL, len  94, seq  66, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 79 (100)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 208
+[INFO: RPL       ] received a unicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 65535
+[INFO: TSCH-LOG  ] {asn 00.0000041c link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len 100, seq 208, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 79 (100)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 209
+[INFO: RPL       ] received a unicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 65535
+[INFO: TSCH-LOG  ] {asn 00.000004e8 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len 100, seq 209, edr   1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 67, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000005fe link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  67, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 62 (83)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 210
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] received a DAO from fd00::9586, seqno 241, lifetime 30, prefix fd00::9586, prefix length 128, parent fd00::a686 
+[INFO: TSCH-LOG  ] {asn 00.000006a2 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  83, seq 210, edr   0
+[INFO: RPL       ] sending a DAO-ACK seqno 241 to fd00::9586 with status 0
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 20 (41)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 208, queue 1 1, len 21 41
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 208, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000006b3 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  41, seq 208, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.0000083c link  2  31   0  0  1 ch 25} bc-1-0 rx LL-9586->LL-NULL, len  94, seq 210, edr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 211
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 0' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 209, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00000906 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  46, seq 211, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 209, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00000917 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  46, seq 209, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 209, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 68, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000ae6 link  2  31   0  0  1 ch 20} bc-1-0 tx LL-a686->LL-NULL, len  94, seq  68, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 69, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000b12 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  69, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.a786 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.a786 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::a786, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 724
+[INFO: TSCH-LOG  ] {asn 00.00000b59 link  1  17   0 15 136 ch 25} bc-1-0 rx LL-a786->LL-NULL, len  94, seq 211, edr -14
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 212
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 1' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 210, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00000b6a link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  46, seq 212, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 210, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00000b7b link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  46, seq 210, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.00000b81 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-9586->LL-NULL, len  94, seq 212, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b286 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b286 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b286, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 476
+[INFO: TSCH-LOG  ] {asn 00.00000d68 link  1  17   0 15 136 ch 15} bc-1-0 rx LL-b286->LL-NULL, len  94, seq 212, edr -14
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 213
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 2' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 211, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00000dbd link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  46, seq 213, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 211, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00000dce link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  46, seq 211, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 214
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 3' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 212, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00001010 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  46, seq 214, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 212, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00001021 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  46, seq 212, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.00001059 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-9586->LL-NULL, len  94, seq 214, edr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 70, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000010ee link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  70, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b286 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b286 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b286, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 718
+[INFO: TSCH-LOG  ] {asn 00.00001186 link  1  17   0 15 136 ch 26} bc-1-0 rx LL-b286->LL-NULL, len  94, seq 214, edr -12
+[INFO: TSCH-LOG  ] {asn 00.000011ae link  2  31   0  0  1 ch 20} !failed to parse frame 13 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 215
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 4' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 213, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00001263 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  46, seq 215, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 213, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00001274 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  46, seq 213, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 213, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 71, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000137f link  2  31   0  0  1 ch 15} bc-1-0 tx LL-a686->LL-NULL, len  94, seq  71, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 216
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 5' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 214, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.000014c7 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  46, seq 216, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 214, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000014d8 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  46, seq 214, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 72, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00001602 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  72, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 217
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 6' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 215, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.0000171a link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  46, seq 217, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 215, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000172b link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  46, seq 215, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 15, nbr count 1 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 --  8  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 2 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1740 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 218
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 7' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 216, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.0000196d link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  46, seq 218, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 216, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000197e link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  46, seq 216, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.000019ac link  2  31   0  0  1 ch 25} bc-1-0 rx LL-9586->LL-NULL, len  94, seq 218, edr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 73, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00001b7a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  73, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 219
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 8' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 217, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00001bc0 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  46, seq 219, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 217, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00001bd1 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  46, seq 217, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 220
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 9' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 218, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00001e24 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  46, seq 220, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 218, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00001e35 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  46, seq 218, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 221
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 10' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 219, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00002077 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq 221, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 219, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00002088 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq 219, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 74, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000020f2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  74, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.000022a2 link  2  31   0  0  1 ch 20} !discarding frame with type 2, len 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 222
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 11' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 220, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000022ca link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 222, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 220, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000022db link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 220, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 223
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 12' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 221, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000252e link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 223, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 221, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000253f link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 221, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000254c link  2  31   0  0  1 ch 25} !failed to parse frame 0 0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 75, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000026ce link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  75, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 224
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 13' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 222, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00002781 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq 224, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 222, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00002792 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 222, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 225
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 14' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 223, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000029d4 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq 225, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 223, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000029e5 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq 223, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 76, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00002be2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  76, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 226
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 15' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 224, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00002c27 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq 226, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 224, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00002c38 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq 224, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 227
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 16' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 225, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00002e8b link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq 227, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 225, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00002e9c link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq 225, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 16, nbr count 1 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 -- 16  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 2 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1680 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 225, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 77, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00002fb6 link  2  31   0  0  1 ch 20} bc-1-0 tx LL-a686->LL-NULL, len  94, seq  77, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 228
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 17' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 226, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000030de link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 228, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 226, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000030ef link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 226, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 78, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000031be link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  78, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000331a link  2  31   0  0  1 ch 20} !discarding frame with type 2, len 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 229
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 18' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 227, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00003331 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq 229, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.00003339 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-9586->LL-NULL, len  94, seq 229, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 227, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00003342 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 227, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 230
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 19' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 228, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00003584 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq 230, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 228, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00003595 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq 228, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 79, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000379a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  79, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 231
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 20' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 229, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000037e8 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq 231, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 229, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000037f9 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq 229, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 232
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 21' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 230, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00003a3b link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq 232, edr  -1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 230, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00003a4c link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq 230, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 233
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 22' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 231, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00003c8e link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 233, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 231, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00003c9f link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 231, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 80, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00003cae link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  80, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 234
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 23' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 232, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00003ee1 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq 234, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 232, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00003ef2 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 232, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 235
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 24' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 233, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00004145 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq 235, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 233, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00004156 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 233, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 81, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000041c2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  81, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000042ee link  1  17   0 15 136 ch 26} bc-0-0 rx LL-9586->LL-NULL, len  35, seq 235, edr   0
+[INFO: TSCH-LOG  ] {asn 00.00004392 link  2  31   0  0  1 ch 20} !discarding frame with type 2, len 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 236
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 25' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 234, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00004398 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq 236, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 234, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000043a9 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq 234, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 237
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 26' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 235, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000045eb link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq 237, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 235, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000045fc link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq 235, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 17, nbr count 1 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 -- 16  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 2 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1620 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 82, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000479e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  82, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 238
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 27' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 236, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000483e link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 238, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 236, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000484f link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 236, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 239
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 28' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 237, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00004aa2 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 239, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 237, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00004ab3 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 237, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 240
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 29' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 238, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00004cf5 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq 240, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 238, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00004d06 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 238, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 83, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00004d7a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  83, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 241
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 30' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 239, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00004f48 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq 241, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 239, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00004f59 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq 239, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 242
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 31' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 240, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000051ac link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq 242, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 240, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000051bd link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq 240, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 84, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00005356 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  84, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 243
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 32' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 241, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000053ff link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq 243, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 241, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00005410 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq 241, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 244
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 33' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 242, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00005652 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 244, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 242, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00005663 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 242, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 245
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 34' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 243, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000058a5 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq 245, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 243, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000058b6 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 243, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 85, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000058ce link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  85, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 246
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 35' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 244, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00005b09 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq 246, edr  -1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 244, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00005b1a link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 244, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.00005c84 link  2  31   0  0  1 ch 25} bc-1-0 rx LL-9586->LL-NULL, len  94, seq 246, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 247
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 36' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 245, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00005d5c link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq 247, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 245, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00005d6d link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq 245, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 17, nbr count 1 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 -- 16  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 2 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1560 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 245, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 86, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00005e74 link  2  31   0  0  1 ch 25} bc-1-0 tx LL-a686->LL-NULL, len  94, seq  86, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 87, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00005eaa link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  87, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 248
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 37' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 246, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00005faf link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq 248, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 246, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00005fc0 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq 246, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 249
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 38' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 247, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00006202 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 249, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 247, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00006213 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 247, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 250
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 39' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 248, queue 1 2, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00006466 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 250, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 248, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00006477 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 248, st 0  1
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 88, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00006486 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  88, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00006691 link  2  31   0  0  1 ch 26} !discarding frame with type 2, len 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 251
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 40' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 249, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000066b9 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq 251, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 249, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000066ca link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 249, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 252
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 41' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 250, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000690c link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq 252, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 250, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000691d link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq 250, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 89, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000069fe link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  89, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 253
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 42' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 251, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00006b5f link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq 253, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 251, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00006b70 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq 251, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 254
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 43' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 252, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00006dc3 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq 254, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 252, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00006dd4 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq 252, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0200.0000.0000.a686 21 0 (21)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 192
+[WARN: 6LoWPAN   ] input: empty packet
+[INFO: TSCH-LOG  ] {asn 00.00006e7e link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9387->LL-a686, len  21, seq 192, edr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 90, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00006f12 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  90, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 255
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 44' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 253, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00007016 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq 255, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 253, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00007027 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq 253, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00007196 link  2  31   0  0  1 ch 20} !failed to parse frame 13 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 1
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 45' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 254, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00007269 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq   1, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 254, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000727a link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 254, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0200.0000.0000.a686 21 0 (21)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 193
+[WARN: 6LoWPAN   ] input: empty packet
+[INFO: TSCH-LOG  ] {asn 00.000072be link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9387->LL-a686, len  21, seq 193, edr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 91, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000748a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  91, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0000.0000.0000.0000 14 10 (24)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 65535
+[INFO: RPL       ] received a DIS from fe80::9387
+[INFO: RPL       ] reset DIO timer (Multicast DIS)
+[INFO: TSCH-LOG  ] {asn 00.0000749d link  2  31   0  0  1 ch 26} bc-1-0 rx LL-9387->LL-NULL, len  24, seq 193, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 2
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 46' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 255, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000074cd link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq   2, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 255, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000074de link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq 255, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 12, nbr count 1 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 -- 16  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 2 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1500 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.000075f2 link  2  31   0  0  1 ch 20} bc-1-0 rx LL-9586->LL-NULL, len  94, seq   2, edr   0
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 255, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 92, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00007630 link  2  31   0  0  1 ch 25} bc-1-0 tx LL-a686->LL-NULL, len  94, seq  92, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00007709 link  2  31   0  0  1 ch 26} !discarding frame with type 2, len 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 3
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 47' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 1, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00007720 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq   3, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 1, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00007731 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq   1, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0200.0000.0000.a686 21 79 (100)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 195
+[INFO: RPL       ] received a unicast-DIO from fe80::9387, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 65535
+[INFO: TSCH-LOG  ] {asn 00.000077ca link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9387->LL-a686, len 100, seq 195, edr   0
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 1, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 93, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00007801 link  2  31   0  0  1 ch 26} bc-1-0 tx LL-a686->LL-NULL, len  94, seq  93, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0200.0000.0000.a686 21 79 (100)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 196
+[INFO: RPL       ] received a unicast-DIO from fe80::9387, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 65535
+[INFO: TSCH-LOG  ] {asn 00.00007896 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9387->LL-a686, len 100, seq 196, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.00007956 link  2  31   0  0  1 ch 20} bc-1-0 rx LL-9586->LL-NULL, len  94, seq 196, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 4
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 48' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 2, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00007973 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq   4, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 2, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00007984 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq   2, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 94, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00007a02 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  94, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0200.0000.0000.a686 21 62 (83)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 197
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (304 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (304 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] received a DAO from fd00::9387, seqno 241, lifetime 30, prefix fd00::9387, prefix length 128, parent fd00::a686 
+[INFO: TSCH-LOG  ] {asn 00.00007aa5 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9387->LL-a686, len  83, seq 197, edr   0
+[INFO: RPL       ] sending a DAO-ACK seqno 241 to fd00::9387 with status 0
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9387 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9387 21 20 (41)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9387 with seqno 3, queue 1 1, len 21 41
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9387, seqno 3, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9387, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00007ab7 link  1  17   0 16 136 ch 15} uc-1-0 tx LL-a686->LL-9387, len  41, seq   3, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9387, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 299
+[INFO: TSCH-LOG  ] {asn 00.00007ba3 link  2  31   0  0  1 ch 15} bc-1-0 rx LL-9387->LL-NULL, len  94, seq 197, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 5
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 49' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 4, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00007bc6 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq   5, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 4, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00007bd7 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq   4, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 198
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (299 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (299 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 0' from fd00::9387
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9387 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9387 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9387 with seqno 5, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00007be8 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9387->LL-a686, len  46, seq 198, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9387, seqno 5, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9387, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00007bfa link  1  17   0 16 136 ch 20} uc-1-0 tx LL-a686->LL-9387, len  46, seq   5, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 5, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 95, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00007d93 link  2  31   0  0  1 ch 15} bc-1-0 tx LL-a686->LL-NULL, len  94, seq  95, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.00007db2 link  2  31   0  0  1 ch 20} bc-1-0 rx LL-9586->LL-NULL, len  94, seq 198, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 199
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (320 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (320 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 1' from fd00::9387
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9387 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9387 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9387 with seqno 6, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00007e19 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9387->LL-a686, len  46, seq 199, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 6
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank err[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+or 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 50' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 7, queue 1 2, len 21 47
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9387, seqno 6, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9387, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00007e2a link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq   6, edr   0
+[INFO: TSCH-LOG  ] {asn 00.00007e2b link  1  17   0 16 136 ch 15} uc-1-0 tx LL-a686->LL-9387, len  46, seq   6, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 7, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00007e3b link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq   7, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9387, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 313
+[INFO: TSCH-LOG  ] {asn 00.00007e6c link  2  31   0  0  1 ch 25} bc-1-0 rx LL-9387->LL-NULL, len  94, seq   6, edr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00007fb1 link  1  17   0 15 136 ch 25} bc-0-0 rx LL-9387->LL-NULL, len  35, seq   6, edr   0
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 96, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00007fde link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  96, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 8
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 51' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 8, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000807d link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq   8, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 8, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000808e link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq   8, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 200
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (313 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (313 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 2' from fd00::9387
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9387 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9387 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9387 with seqno 9, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.0000809f link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9387->LL-a686, len  46, seq 200, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9387, seqno 9, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9387, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000080b1 link  1  17   0 16 136 ch 26} uc-1-0 tx LL-a686->LL-9387, len  46, seq   9, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 9
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 52' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 10, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000082d0 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq   9, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 10, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000082e1 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  10, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9387 0200.0000.0000.a686 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.9387 with seqno 201
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (332 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9387 to fd00::a686 going up, sender closer 0 (332 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 3' from fd00::9387
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9387 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9387 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9387 with seqno 11, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.000082f2 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9387->LL-a686, len  46, seq 201, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9387, seqno 11, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9387, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00008304 link  1  17   0 16 136 ch 25} uc-1-0 tx LL-a686->LL-9387, len  46, seq  11, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 10
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 53' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 12, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00008523 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  10, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 12, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00008534 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  12, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 97, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000085ba link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  97, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 12, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 98, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000864b link  2  31   0  0  1 ch 15} bc-1-0 tx LL-a686->LL-NULL, len  94, seq  98, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00008781 link  2  31   0  0  1 ch 26} !discarding frame with type 2, len 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 11
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 54' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 13, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00008787 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  11, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 13, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00008798 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  13, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00008914 link  2  31   0  0  1 ch 25} !failed to parse frame 13 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 12
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 55' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 14, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000089da link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  12, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 14, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000089eb link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  14, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.00008ae5 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-9586->LL-NULL, len  94, seq  12, edr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 99, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00008b96 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq  99, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 13
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 56' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 15, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00008c2d link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  13, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 15, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00008c3e link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  15, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 15, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 -- 16  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::9387  313,   128 =>   441 --  5   af  (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 3 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1440 seconds)
+[INFO: RPL       ] links: fd00::9387  to fd00::a686 (lifetime: 1740 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 14
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 57' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 16, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00008e80 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  14, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 16, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00008e91 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  16, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 15
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 58' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 17, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000090e4 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  15, edr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 17, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000090f5 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  17, st 0  1
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 100, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000910e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 100, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 16
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 59' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 18, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00009337 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  16, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 18, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00009348 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  18, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 17
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 60' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 19, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000958a link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  17, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 19, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000959b link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  19, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 101, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000974e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 101, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 18
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 61' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 20, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000097dd link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  18, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 20, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.000097ee link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  20, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.000097f9 link  2  31   0  0  1 ch 26} !discarding frame with type 2, len 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 19
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 62' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 21, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00009a41 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  19, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 21, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00009a52 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  21, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 21, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 102, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00009c17 link  2  31   0  0  1 ch 15} bc-1-0 tx LL-a686->LL-NULL, len  94, seq 102, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 20
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 63' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 22, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00009c94 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  20, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 22, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00009ca5 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  22, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 103, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00009cc6 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 103, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 21
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 64' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 23, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00009ee7 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  21, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 23, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.00009ef8 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  23, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 22
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 65' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 24, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000a14b link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  22, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 24, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000a15c link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  24, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.0000a225 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-9586->LL-NULL, len  94, seq  22, edr   0
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 104, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000a23e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 104, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 23
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 66' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 25, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000a39e link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  23, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 25, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000a3af link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  25, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 16, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 -- 16  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::9387  313,   128 =>   441 --  5   af  (last tx 1 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 3 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1380 seconds)
+[INFO: RPL       ] links: fd00::9387  to fd00::a686 (lifetime: 1680 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 24
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 67' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 26, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000a5f1 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  24, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 26, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000a602 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  26, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 105, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000a7b6 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 105, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 25
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 68' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 27, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000a844 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  25, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 27, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000a855 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  27, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000aa80 link  2  31   0  0  1 ch 25} !discarding frame with type 2, len 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 26
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 69' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 28, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000aaa8 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  26, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 28, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000aab9 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  28, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 28
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 70' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 29, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000acfb link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  28, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 29, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000ad0c link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  29, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 106, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000adf6 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 106, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 29
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 71' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 30, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000af4e link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  29, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 30, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000af5f link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  30, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 30
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 72' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 31, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000b1a1 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  30, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 31, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000b1b2 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  31, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 107, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000b36e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 107, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 31
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 73' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 32, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000b405 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  31, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 32, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000b416 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  32, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 32
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 74' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 33, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000b658 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  32, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 33, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000b669 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  33, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 33
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 75' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 34, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000b8ab link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  33, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 34, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000b8bc link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  34, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 108, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000b8e6 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 108, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000baf8 link  2  31   0  0  1 ch 25} !discarding frame with type 2, len 17
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 34
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 76' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 35, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000bafe link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  34, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 35, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000bb0f link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  35, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 17, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 -- 16  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::9387  313,   128 =>   441 --  5   af  (last tx 2 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 3 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1320 seconds)
+[INFO: RPL       ] links: fd00::9387  to fd00::a686 (lifetime: 1620 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 35
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 77' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 36, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000bd62 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  35, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 36, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000bd73 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  36, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 109, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000bdfa link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 109, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 36
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 78' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 37, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000bfb5 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  36, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 37, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000bfc6 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  37, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 37
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 79' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 38, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000c208 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  37, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 38, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000c219 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  38, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 110, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000c372 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 110, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 38
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 80' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 39, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000c45b link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  38, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 39, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000c46c link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  39, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 39
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 81' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 40, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000c6bf link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  39, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 40, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000c6d0 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  40, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 111, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000c8ea link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 111, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 40
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 82' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 41, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000c912 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  40, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 41, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000c923 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  41, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::9586, instance_id 0, DAG ID fd00::a686, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.0000c980 link  2  31   0  0  1 ch 25} bc-1-0 rx LL-9586->LL-NULL, len  94, seq  40, edr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 41
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 83' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 42, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000cb65 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  41, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 42, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000cb76 link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  42, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 42, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 112, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000cbae link  2  31   0  0  1 ch 20} bc-1-0 tx LL-a686->LL-NULL, len  94, seq 112, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 42
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 84' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 43, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000cdc9 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  42, edr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 43, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000cdda link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  43, st 0  1
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 113, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000cdfe link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 113, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 43
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 85' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 44, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000d01c link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  43, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 44, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000d02d link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  44, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b386 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b386 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b386, instance_id 0, DAG ID fd00::b586, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.0000d1d6 link  1  17   0 15 136 ch 26} bc-1-0 rx LL-b386->LL-NULL, len  94, seq  43, edr -23
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 44
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 86' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 45, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000d26f link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  44, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 45, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000d280 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  45, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 114, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000d2ae link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 114, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 17, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 -- 16  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::9387  313,   128 =>   441 --  5   af  (last tx 3 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 3 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1260 seconds)
+[INFO: RPL       ] links: fd00::9387  to fd00::a686 (lifetime: 1560 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: Frame 15.4] In:  1 0200.0000.0000.a385 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.a385 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::a385, instance_id 0, DAG ID fd00::b586, version 240, dtsn 240, rank 256
+[INFO: TSCH-LOG  ] {asn 00.0000d3e5 link  1  17   0 15 136 ch 25} bc-1-0 rx LL-a385->LL-NULL, len  94, seq  44, edr -21
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 45
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 87' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 46, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000d4c2 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  45, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 46, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000d4d3 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  46, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 46
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 88' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 47, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000d726 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  46, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 47, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000d737 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  47, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 115, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000d7c2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 115, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 47
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 89' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 48, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000d979 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  47, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 48, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000d98a link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  48, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 48
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 90' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 49, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000dbcc link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  48, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 49, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000dbdd link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  49, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 116, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000dd9e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 116, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 49
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 91' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 50, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000de1f link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  49, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 50, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000de30 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  50, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 50
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 92' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 51, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000e083 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  50, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 51, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000e094 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  51, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 51
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 93' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 52, queue 1 2, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000e2d6 link  1  17   0 15 136 ch 26} uc-1-0 rx LL-9586->LL-a686, len  47, seq  51, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 52, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000e2e7 link  1  17   0 15 136 ch 20} uc-1-0 tx LL-a686->LL-9586, len  47, seq  52, st 0  1
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 117, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000e316 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 117, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 52
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 94' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 53, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000e529 link  1  17   0 15 136 ch 25} uc-1-0 rx LL-9586->LL-a686, len  47, seq  52, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 53, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000e53a link  1  17   0 15 136 ch 26} uc-1-0 tx LL-a686->LL-9586, len  47, seq  53, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 53
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 95' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 54, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000e77c link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  53, edr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 54, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000e78d link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  54, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 118, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000e7c6 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-a686->LL-NULL, len  35, seq 118, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 54
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 96' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 55, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000e9e0 link  1  17   0 15 136 ch 15} uc-1-0 rx LL-9586->LL-a686, len  47, seq  54, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 55, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000e9f1 link  1  17   0 15 136 ch 25} uc-1-0 tx LL-a686->LL-9586, len  47, seq  55, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::a686, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 18, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::9586  256,   128 =>   384 -- 16  baf  (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::9387  313,   128 =>   441 --  5   af  (last tx 4 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] links: 3 routing links in total (Periodic)
+[INFO: RPL       ] links: fd00::a686  (DODAG root) (lifetime: infinite)
+[INFO: RPL       ] links: fd00::9586  to fd00::a686 (lifetime: 1200 seconds)
+[INFO: RPL       ] links: fd00::9387  to fd00::a686 (lifetime: 1500 seconds)
+[INFO: RPL       ] links: end of list
+[INFO: Frame 15.4] In:  1 0200.0000.0000.9586 0200.0000.0000.a686 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.9586 with seqno 55
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: RPL       ] ext hdr: packet from fd00::9586 to fd00::a686 going up, sender closer 0 (256 < 128), rank error 0, loop detected 0
+[INFO: App       ] Received request 'hello 97' from fd00::9586
+[INFO: App       ] sending response
+[INFO: RPL       ] SRH creating source routing header with destination fd00::9586 
+[INFO: RPL       ] SRH path len: 0, ComprI 15, ComprE 15, ext len 8 (padding 0)
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.9586 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.9586 with seqno 56, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000ec33 link  1  17   0 15 136 ch 20} uc-1-0 rx LL-9586->LL-a686, len  47, seq  55, edr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.9586, seqno 56, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.9586, status 0, tx 1, new link metric 128
+[INFO: TSCH-LOG  ] {asn 00.0000ec44 link  1  17   0 15 136 ch 15} uc-1-0 tx LL-a686->LL-9586, len  47, seq  56, st 0  1
