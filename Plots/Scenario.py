@@ -23,13 +23,13 @@ class Scenario:
 	# Génère les noeuds
 	def get_nodes_power(self):
 		# On rentre dans le dossier power
-		for file in os.listdir(self.path + "/power/logs"):
+		for file in os.listdir(self.path + "/power/exp1/logs"):
 			# On récupère le nom du fichier
 			file_name = os.path.splitext(file)[0]
 			# On récupère le numéro du noeud
 			node = file_name.split("_")[1]
 			# On cherche la ligne contenant le rôle du noeud
-			with open(self.path + "/power/logs/" + file, "r") as f:
+			with open(self.path + "/power/exp1/logs/" + file, "r") as f:
 				for l in f:
 					if "Flash firmware on OpenOCD" in l:
 						# On récupère le rôle du noeud (dernier mot de la ligne)
@@ -40,8 +40,8 @@ class Scenario:
 			self.nodes_power.append(Node(
 				node,
 				role,
-				self.path + "/power/logs/" + file,
-				self.path + "/power/consumption/m3_" + node + ".oml",
+				self.path + "/power/exp1/logs/" + file,
+				self.path + "/power/exp1/consumption/m3_" + node + ".oml",
 				POWER,
 				self.time)
 			)
