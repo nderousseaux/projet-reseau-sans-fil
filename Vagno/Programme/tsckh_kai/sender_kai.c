@@ -34,6 +34,7 @@ PROCESS (node_process, "UDP SRC");
 AUTOSTART_PROCESSES (&node_process);
 
 /*---------------------------------------------------------------------------*/
+static clock_time_t send_time;
 
 static void udp_rx_callback (struct simple_udp_connection *c,
 			     const uip_ipaddr_t *sender_addr,
@@ -44,9 +45,14 @@ static void udp_rx_callback (struct simple_udp_connection *c,
 			     uint16_t datalen)
 {
 
+  clock_time_t receive_time = clock_time();
   LOG_INFO ("Received response '%.*s' from ", datalen, (char *) data);
   LOG_INFO_6ADDR (sender_addr);
   LOG_INFO_ ("\n");
+  
+  // Mesure le temps entre l'envoi et la réception
+  clock_time_t duration = receive_time - send_time;
+  LOG_INFO("Duration: %u ticks (%u ms)\n", duration, (uint32_t)duration * 1000 / CLOCK_SECOND);
 
 }
 
@@ -78,6 +84,10 @@ PROCESS_THREAD (node_process, ev, data)
       LOG_INFO ("Sending request %u to ", count);
       LOG_INFO ("\n");
       snprintf (str, SIZE_STR, "hello %d", count);
+      
+      // Mémorise l'heure d'envoi
+      send_time = clock_time();
+      
       simple_udp_sendto (&udp_conn, str, strlen (str), &dest_ipaddr);
       count++;
     }
