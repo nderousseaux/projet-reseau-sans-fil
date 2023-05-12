@@ -6,7 +6,7 @@ echo "lancement du scénario 1"
 NAME_EXP="TSCH_LOGS_1V2"
 
 #Nom du fichier contenant le scénarios
-FILE_EXPERIENCE=tsch-orchestra
+FILE_EXPERIENCE=tsch_kai
 
 #Parametre de l'experience 
 Nb_coordinateur=1
