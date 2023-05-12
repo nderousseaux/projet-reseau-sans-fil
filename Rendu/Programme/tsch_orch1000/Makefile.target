@@ -1,0 +1,2 @@
+TARGET = iotlab
+BOARD = a8-m3
