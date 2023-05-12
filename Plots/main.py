@@ -28,6 +28,20 @@ def analyse_nb_senders(path):
 
 	# On affiche le graphique
 	plt.show()
+
+	# On fait un histogramme du débit utile du réseau
+	plt.bar([str(s.nbSenders) for s in scenarios], [s.get_useful_throughput() for s in scenarios])
+
+	# Titre
+	plt.title("Débit utile du réseau en fonction du nombre de senders")
+
+	# On affiche les labels
+	plt.xlabel("Nombre de senders")
+	plt.ylabel("Débit utile du réseau (kbps)")
+
+	# On affiche le graphique
+	plt.show()
+
 	
 def analyse_size_slot(path):
 		# On écrit en dur les scénarios
@@ -57,7 +71,12 @@ def analyse_size_slot(path):
 if __name__ == "__main__":	
 	path = sys.argv[1]
 
-	scenario_etalon = Scenario(path + "/s0-etalon", 5, TSCH, 397, 600)
+	# scenario_etalon = Scenario(path + "/s0-etalon", 5, TSCH, 397, 600)
+	scenario_etalon = Scenario(path + "/s1-nb-senders/10", 10, TSCH, 397, 600)
 
-	analyse_size_slot(path)
+	# On affiche le débit utile 
+	for n in scenario_etalon.nodes_logs:
+		print(n.get_useful_throughput())
+
+	# analyse_size_slot(path)
 

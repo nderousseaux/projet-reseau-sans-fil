@@ -17,8 +17,12 @@ class Scenario:
 		self.time = time
 		self.path = path
 		self.nodes_power = []
+		self.nodes_logs = []
 		# On récupère les noeuds
 		self.get_nodes_power()
+
+		# On récupère les logs
+		self.get_nodes_logs()
 	
 	# Génère les noeuds
 	def get_nodes_power(self):
@@ -43,6 +47,38 @@ class Scenario:
 				self.path + "/power/exp1/logs/" + file,
 				self.path + "/power/exp1/consumption/m3_" + node + ".oml",
 				POWER,
+				self.time)
+			)
+
+	# Génère 
+	def get_nodes_logs(self):
+		# On rentre dans le dossier logs
+		for file in os.listdir(self.path + "/logs"):
+			# Si ce n'est pas un fichier txt
+			if not file.endswith(".txt"):
+				continue
+
+			# Si le nom du fichier est "coordinator"
+			if file == "coordinator.txt":
+				role = COORDINATOR
+				num = -1
+			else:
+				role = SENDER
+				# Le numéro du noeud est les caractères après sender
+				num = file[6:]
+				# On récupère le numéro du noeud
+				num = num.split(".")[0]
+				# On récupère le numéro du noeud
+				num = int(num)
+				
+							
+			# On crée le noeud
+			self.nodes_logs.append(Node(
+				num,
+				role,
+				'',
+				self.path + "/logs/" + file,
+				LOGS,
 				self.time)
 			)
 
