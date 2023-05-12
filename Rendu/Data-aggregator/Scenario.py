@@ -17,8 +17,12 @@ class Scenario:
 		self.time = time
 		self.path = path
 		self.nodes_power = []
+		self.nodes_logs = []
 		# On récupère les noeuds
 		self.get_nodes_power()
+
+		# On récupère les logs
+		self.get_nodes_logs()
 	
 	# Génère les noeuds
 	def get_nodes_power(self):
@@ -43,6 +47,38 @@ class Scenario:
 				self.path + "/power/exp1/logs/" + file,
 				self.path + "/power/exp1/consumption/m3_" + node + ".oml",
 				POWER,
+				self.time)
+			)
+
+	# Génère 
+	def get_nodes_logs(self):
+		# On rentre dans le dossier logs
+		for file in os.listdir(self.path + "/logs"):
+			# Si ce n'est pas un fichier txt
+			if not file.endswith(".txt"):
+				continue
+
+			# Si le nom du fichier est "coordinator"
+			if file == "coordinator.txt":
+				role = COORDINATOR
+				num = -1
+			else:
+				role = SENDER
+				# Le numéro du noeud est les caractères après sender
+				num = file[6:]
+				# On récupère le numéro du noeud
+				num = num.split(".")[0]
+				# On récupère le numéro du noeud
+				num = int(num)
+				
+							
+			# On crée le noeud
+			self.nodes_logs.append(Node(
+				num,
+				role,
+				'',
+				self.path + "/logs/" + file,
+				LOGS,
 				self.time)
 			)
 
@@ -86,6 +122,30 @@ class Scenario:
 		# On calcule la consommation totale
 		return sum([node.get_consumption() for node in self.nodes_power if node.role == COORDINATOR])
 	
+	def get_mean_useful_throughput(self):
+		# On calcule la moyenne du débit utile
+		return sum([node.get_useful_throughput() for node in self.nodes_logs]) / len(self.nodes_logs)
+	
+	def get_mean_useful_throughput_senders(self):
+		# On calcule la moyenne du débit utile
+		return sum([node.get_useful_throughput() for node in self.nodes_logs if node.role == SENDER]) / self.nbSenders
+	
+	def get_mean_useful_throughput_coordinator(self):
+		# On calcule la moyenne du débit utile
+		return sum([node.get_useful_throughput() for node in self.nodes_logs if node.role == COORDINATOR])
+	
+	def get_useful_throughput(self):
+		# On calcule la somme du débit utile
+		return sum([node.get_useful_throughput() for node in self.nodes_logs if node.role == SENDER])
+
+	def get_mean_loss_rate(self):
+		# On calcule la moyenne du taux de perte (uniquement sur les noeuds envoyeurs)
+		return sum([node.get_loss_rate() for node in self.nodes_logs if node.role == SENDER]) / self.nbSenders
+
+	def get_mean_delay(self):
+		# On calcule la moyenne du délai (uniquement sur les noeuds envoyeurs)
+		return sum([node.get_delai() for node in self.nodes_logs if node.role == SENDER]) / self.nbSenders
+
 	def __str__(self):
 		string = "====== " + self.path + " ======\n"
 		string += "Nb nodes: " + str(len(self.nodes_power)) + "\n"
@@ -104,4 +164,12 @@ class Scenario:
 		string += "Consumption senders: " + str(self.get_consumption_senders()) + " Wh\n"
 		string += "Consumption mean senders: " + str(self.get_consumption_mean_senders()) + " Wh\n"
 		string += "Consumption coordinator: " + str(self.get_consumption_coordinator()) + " Wh\n"
+
+		string += "\n=== Network ===\n"
+		string += "Mean useful throughput: " + str(self.get_mean_useful_throughput()) + " B/s\n"
+		string += "Mean useful throughput senders: " + str(self.get_mean_useful_throughput_senders()) + " B/s\n"
+		string += "Mean useful throughput coordinator: " + str(self.get_mean_useful_throughput_coordinator()) + " B/s\n"
+		string += "Useful throughput senders: " + str(self.get_useful_throughput()) + " B/s\n"
+		string += "Mean loss rate: " + str(self.get_mean_loss_rate()) + " %\n"
+		string += "Mean delay: " + str(self.get_mean_delay()) + " ms\n"
 		return string

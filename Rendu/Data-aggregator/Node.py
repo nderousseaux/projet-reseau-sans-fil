@@ -6,7 +6,7 @@ COORDINATOR = "coordinator"
 SENDER = "sender"
 
 POWER = "power"
-RSSI = "rssi"
+LOGS = "rssi"
 
 class Node:
     
@@ -40,6 +40,66 @@ class Node:
 	def get_consumption(self):
 		# On calcule la moyenne de la consommation en wat par heure
 		return self.get_power() * (self.time / 3600)
+	
+	# Renvoie le débit utile
+	def get_useful_throughput(self):
+		data = 0;
+
+		# On ouvre le fichier
+		with open(self.data, "r") as f:
+			# On cherche les lignes qui commencent par [INFO: TSCH-LOG  ]
+			lines = [l for l in f if l.startswith("[INFO: TSCH-LOG  ]")]
+			
+			# On cherche les paquets de type data 
+			# Le premier mot après '}': 1
+			for l in lines:
+				try:
+					# Le mot juste après len est la taille du paquet
+					l = l.split("}")[1]
+
+					if l.split("-")[1] == "1":
+						if "len" in l:
+							size = l.split("len ")[1].split(",")[0]
+							data += int(size)
+				except:
+					pass
+		
+		# On calcule le débit utile en ko/s
+		return data * 8 / self.time / 1000
 		
 	def __str__(self):
 		return self.name + " (" + self.role + ")"
+	
+	def get_loss_rate(self):
+
+		# On ouvre le fichier
+		with open(self.data, "r") as f:
+			# On compte le nombre de ligne ou il y a st 0
+			# On compte le nombre de ligne ou il y a st 2
+
+			no_st0 = 0
+			no_st2 = 0
+
+			for l in f:
+				if "st 0" in l:
+					no_st0 += 1
+				elif "st 2" in l:
+					no_st2 += 1
+			
+		# On calcule le taux de perte
+		return no_st2 / (no_st0 + no_st2)
+	
+	def get_delai(self):
+		time = 0
+		i = 0
+		# On ouvre le fichier
+		with open(self.data, "r") as f:
+			for l in f:
+				if "Duration:" in l:
+					time += int(l.split(" ")[-2][1:])
+					i += 1
+
+		if i == 0:
+			return 0
+		# On calcule le délai moyen
+		return time / i
