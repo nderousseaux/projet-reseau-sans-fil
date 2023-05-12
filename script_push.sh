@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sleep 3000
+sleep 720
 git pull
 git add .
-git commit -m "commit de test"
+git commit -m "1er jets des logs"
 git push
-sleep 1
-shutdown now
+#sleep 1
+#shutdown now
