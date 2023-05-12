@@ -15,3 +15,9 @@
 
     make distclean
 
+# Utile
+ 
+```bash
+commande_a_ignorer > /dev/null 2>&1
+```
+

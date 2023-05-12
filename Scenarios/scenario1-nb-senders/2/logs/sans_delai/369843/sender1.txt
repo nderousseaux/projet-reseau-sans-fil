@@ -1,0 +1,2512 @@
+[INFO: TSCH      ] scanning on channel 26
+[INFO: App       ] Not reachable yet
+[INFO: TSCH      ] scanning on channel 20
+[INFO: TSCH      ] scan: received packet (35 bytes) on channel 20
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH      ] parse_eb: no schedule
+[INFO: TSCH Queue] update time source: (NULL LL addr) -> 0200.0000.0000.b086
+[INFO: TSCH Sched] add_link sf=0 opt=Rx type=ADV_ONLY ts=134 ch=0 addr=ffff.ffff.ffff.ffff
+[INFO: TSCH      ] association done (1), sec 0, PAN ID 81a5, asn-0.213, jp 1, timeslot id 0, hopping id 0, slotframe len 0 with 0 links, from 0200.0000.0000.b086
+[INFO: TSCH-LOG  ] {asn 00.00000214 link  1  17   0  5 135 ch  0} !dl-miss assoc 1153 328
+[INFO: TSCH-LOG  ] {asn 00.00000215 link  1  17   0  6 135 ch  0} !dl-miss assoc 828 328
+[INFO: TSCH-LOG  ] {asn 00.00000216 link  1  17   0  7 135 ch  0} !dl-miss assoc 502 328
+[INFO: TSCH-LOG  ] {asn 00.00000307 link  2  31   0  0  1 ch 15} !failed to parse frame 21 83
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000003a0 link  0 397   0 134  0 ch 15} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  17, edr   1, dr  -1
+[INFO: App       ] Not reachable yet
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b086, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 128
+[INFO: RPL       ] adding global IP address fd00::a885
+[INFO: RPL       ] reset MRHOF
+[INFO: RPL       ] initialized DAG with instance ID 0, DAG ID fd00::b086, prexix fd00::/64, rank 65535
+[WARN: RPL       ] just joined, no parent yet, setting timer for leaving
+[INFO: RPL       ] refreshing lifetime
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::b086
+[INFO: TSCH-LOG  ] {asn 00.0000047b link  2  31   0  0  1 ch 15} bc-1-0 rx LL-b086->LL-NULL, len  94, seq  17, edr   0, dr   0
+[INFO: RPL       ] probing fe80::b086 (urgent) last tx 0 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::b086
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 79 (100)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 222, queue 1 1, len 21 100
+[INFO: TSCH-LOG  ] {asn 00.000005a3 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len 100, seq 222, st 2  1
+[INFO: TSCH-LOG  ] {asn 00.000005b4 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len 100, seq 222, st 2  2
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 222, status 0, tx 3
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 3, new link metric 192
+[INFO: TSCH-LOG  ] {asn 00.000005c5 link  1  17   0 15 135 ch 25} drift 0 ppm (min/max delta seen: -1/0)
+[INFO: TSCH-LOG  ] {asn 00.000005c5 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len 100, seq 222, st 0  3, dr   0
+[INFO: RPL       ] best parent is not fresh, schedule urgent probing to fe80::b086
+[INFO: App       ] Not reachable yet
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000006ba link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  17, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.00000706 link  2  31   0  0  1 ch 20} !failed to parse frame 21 46
+[INFO: RPL       ] probing fe80::b086 (urgent) last tx 0 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 65535 to fe80::b086
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 79 (100)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 223, queue 1 1, len 21 100
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 223, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 185
+[INFO: TSCH-LOG  ] {asn 00.0000074c link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len 100, seq 223, st 0  1, dr   1
+[INFO: RPL       ] parent switch: (NULL IP addr) -> fe80::b086
+[WARN: RPL       ] found parent: fe80::b086, staying in DAG
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: joined, MOP 1 OCP 1 rank 313 max-rank 1337, dioint 0, nbr count 1 (Parent switch)
+[INFO: RPL       ] nbr: fe80::b086  128,   185 =>   313 --  4 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 148, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000846 link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 148, st 0  1
+[INFO: App       ] Not reachable yet
+[INFO: RPL       ] sending a DAO seqno 241, tx count 1, lifetime 30, prefix fd00::a885 to fd00::b086, parent fe80::b086
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 62 (83)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 224, queue 1 1, len 21 83
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 224, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 179
+[INFO: TSCH-LOG  ] {asn 00.00000939 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00000939 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  83, seq 224, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 20 (41)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 151
+[INFO: RPL       ] received a DAO-ACK with seqno 241 (241 241) and status 0 from fd00::b086
+[INFO: RPL       ] reset DIO timer (Reachable)
+[INFO: TSCH-LOG  ] {asn 00.00000949 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  41, seq 151, edr   0, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b086, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 128
+[INFO: RPL       ] refreshing lifetime
+[INFO: TSCH-LOG  ] {asn 00.00000a4b link  2  31   0  0  1 ch 15} bc-1-0 rx LL-b086->LL-NULL, len  94, seq 151, edr   0, dr   0
+[INFO: RPL       ] sending a multicast-DIO with rank 307 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 224, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 149, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000a89 link  2  31   0  0  1 ch 26} bc-1-0 tx LL-a885->LL-NULL, len  94, seq 149, st 0  1
+[INFO: App       ] Sending request 0 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 225, queue 1 1, len 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 225, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 173
+[INFO: TSCH-LOG  ] {asn 00.00000b59 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00000b59 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  46, seq 225, st 0  1, dr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00000b61 link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 151, edr   0, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 152
+[INFO: App       ] Received response 'hello 0' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00000b69 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  46, seq 152, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.00000bbf link  2  31   0  0  1 ch 15} !failed to parse frame 21 46
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b287 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b287 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b287, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 283
+[INFO: TSCH-LOG  ] {asn 00.00000cf5 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-b287->LL-NULL, len  94, seq 125, edr   0
+[INFO: RPL       ] sending a multicast-DIO with rank 301 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 225, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 150, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000d14 link  2  31   0  0  1 ch 25} bc-1-0 tx LL-a885->LL-NULL, len  94, seq 150, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 1 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 226, queue 1 2, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00000dac link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  46, seq 226, st 2  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 226, status 0, tx 2
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 2, new link metric 181
+[INFO: TSCH-LOG  ] {asn 00.00000dbd link  1  17   0 15 135 ch 25} drift 0 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00000dbd link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  46, seq 226, st 0  2, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 154
+[INFO: App       ] Received response 'hello 1' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00000dcd link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  46, seq 154, edr   1, dr  -1
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 151, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000e7a link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 151, st 0  1
+[INFO: App       ] Sending request 2 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 227, queue 1 1, len 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 227, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 175
+[INFO: TSCH-LOG  ] {asn 00.00000fff link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00000fff link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  46, seq 227, st 0  1, dr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00001008 link  0 397   0 134  0 ch 15} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 154, edr   0, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 156
+[INFO: App       ] Received response 'hello 2' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000100f link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  46, seq 156, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH-LOG  ] {asn 00.00001078 link  2  31   0  0  1 ch 25} !failed to parse frame 21 55
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 152, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00001194 link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 152, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b287 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b287 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b287, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 300
+[INFO: TSCH-LOG  ] {asn 00.0000122a link  2  31   0  0  1 ch 20} bc-1-0 rx LL-b287->LL-NULL, len  94, seq  30, edr   0
+[INFO: App       ] Sending request 3 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 228, queue 1 1, len 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 228, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 170
+[INFO: TSCH-LOG  ] {asn 00.00001252 link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00001252 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  46, seq 228, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 158
+[INFO: App       ] Received response 'hello 3' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00001262 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  46, seq 158, edr   1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b086, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 128
+[INFO: RPL       ] refreshing lifetime
+[INFO: TSCH-LOG  ] {asn 00.00001287 link  2  31   0  0  1 ch 15} bc-1-0 rx LL-b086->LL-NULL, len  94, seq 158, edr  -1, dr   1
+[INFO: RPL       ] sending a multicast-DIO with rank 298 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 228, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 153, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000012c5 link  2  31   0  0  1 ch 26} bc-1-0 tx LL-a885->LL-NULL, len  94, seq 153, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00001477 link  2  31   0  0  1 ch 15} !failed to parse frame 14 94
+[INFO: App       ] Sending request 4 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 229, queue 1 1, len 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 229, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 165
+[INFO: TSCH-LOG  ] {asn 00.000014b6 link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000014b6 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  46, seq 229, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 160
+[INFO: App       ] Received response 'hello 4' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000014c6 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  46, seq 160, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 154, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000163b link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 154, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00001648 link  2  31   0  0  1 ch 25} !failed to parse frame 21 41
+[INFO: App       ] Sending request 5 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 230, queue 1 1, len 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 230, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 161
+[INFO: TSCH-LOG  ] {asn 00.00001709 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00001709 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  46, seq 230, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 162
+[INFO: App       ] Received response 'hello 5' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00001719 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  46, seq 162, edr   0, dr   0
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 289 max-rank 1313, dioint 15, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   161 =>   289 -- 12 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  300,   256 =>   556 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: App       ] Sending request 6 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 231, queue 1 1, len 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 231, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 157
+[INFO: TSCH-LOG  ] {asn 00.0000195c link  1  17   0 15 135 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.0000195c link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  46, seq 231, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 164
+[INFO: App       ] Received response 'hello 6' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000196c link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  46, seq 164, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.000019ea link  2  31   0  0  1 ch 20} !failed to parse frame 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00001ae3 link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 255, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 7 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 232, queue 1 2, len 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 232, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 154
+[INFO: TSCH-LOG  ] {asn 00.00001baf link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00001baf link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  46, seq 232, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 166
+[INFO: App       ] Received response 'hello 7' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00001bbf link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  46, seq 166, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.00001c18 link  2  31   0  0  1 ch 25} !failed to parse frame 21 47
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 155, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00001c6f link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 155, st 0  1
+[INFO: App       ] Sending request 8 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 233, queue 1 1, len 21 46
+[INFO: TSCH-LOG  ] {asn 00.00001e13 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  46, seq 233, st 2  1
+[INFO: TSCH-LOG  ] {asn 00.00001e24 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  46, seq 233, st 2  2
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 233, status 0, tx 3
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 3, new link metric 177
+[INFO: TSCH-LOG  ] {asn 00.00001e35 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00001e35 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  46, seq 233, st 0  3, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 169
+[INFO: App       ] Received response 'hello 8' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00001e45 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  46, seq 169, edr   0, dr   0
+[INFO: RPL       ] sending a multicast-DIO with rank 305 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 233, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 156, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00001f1f link  2  31   0  0  1 ch 15} bc-1-0 tx LL-a885->LL-NULL, len  94, seq 156, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b287 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b287 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b287, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 298
+[INFO: TSCH-LOG  ] {asn 00.00001fd9 link  2  31   0  0  1 ch 26} bc-1-0 rx LL-b287->LL-NULL, len  94, seq 169, edr   1
+[INFO: App       ] Sending request 9 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 25 (46)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 234, queue 1 1, len 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 234, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 172
+[INFO: TSCH-LOG  ] {asn 00.00002066 link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00002066 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  46, seq 234, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 25 (46)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 170
+[INFO: App       ] Received response 'hello 9' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00002076 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  46, seq 170, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.000020d1 link  2  31   0  0  1 ch 26} !failed to parse frame 21 46
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00002117 link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  14, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 157, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000022a3 link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 157, st 0  1
+[INFO: App       ] Sending request 10 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 235, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 235, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 167
+[INFO: TSCH-LOG  ] {asn 00.000022b9 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000022b9 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq 235, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 172
+[INFO: App       ] Received response 'hello 10' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000022c9 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 172, edr   0, dr   0
+[INFO: App       ] Sending request 11 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 236, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 236, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 163
+[INFO: TSCH-LOG  ] {asn 00.0000251d link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.0000251d link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq 236, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 174
+[INFO: App       ] Received response 'hello 11' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000252d link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 174, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.000025e7 link  2  31   0  0  1 ch 15} !failed to parse frame 21 46
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 158, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000274a link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 158, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000274b link  0 397   0 134  0 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.0000274b link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 160, edr   1, dr  -1
+[INFO: App       ] Sending request 12 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 237, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00002770 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq 237, st 2  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 237, status 0, tx 2
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 2, new link metric 172
+[INFO: TSCH-LOG  ] {asn 00.00002781 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq 237, st 0  2, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 177
+[INFO: App       ] Received response 'hello 12' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00002791 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 177, edr   1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b086, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 128
+[INFO: RPL       ] refreshing lifetime
+[INFO: TSCH-LOG  ] {asn 00.000028b0 link  2  31   0  0  1 ch 25} bc-1-0 rx LL-b086->LL-NULL, len  94, seq 177, edr   0, dr   0
+[INFO: App       ] Sending request 13 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 238, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 238, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 167
+[INFO: TSCH-LOG  ] {asn 00.000029c3 link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000029c3 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq 238, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 178
+[INFO: App       ] Received response 'hello 13' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000029d3 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq 178, edr   0, dr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00002bf2 link  0 397   0 134  0 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00002bf2 link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 179, edr  -1, dr   1
+[INFO: App       ] Sending request 14 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 239, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 239, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 163
+[INFO: TSCH-LOG  ] {asn 00.00002c16 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq 239, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 180
+[INFO: App       ] Received response 'hello 14' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00002c26 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq 180, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 159, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00002d7e link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 159, st 0  1
+[INFO: App       ] Sending request 15 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 240, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 240, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 159
+[INFO: TSCH-LOG  ] {asn 00.00002e7a link  1  17   0 15 135 ch 26} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00002e7a link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq 240, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 182
+[INFO: App       ] Received response 'hello 15' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00002e8a link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq 182, edr  -1, dr   1
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 287 max-rank 1306, dioint 16, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   159 =>   287 -- 16 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  298,   256 =>   554 --  0   a   (no tx)
+[INFO: RPL       ] nbr: end of list
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b287 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b287 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b287, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 294
+[INFO: TSCH-LOG  ] {asn 00.00002ff4 link  2  31   0  0  1 ch 25} bc-1-0 rx LL-b287->LL-NULL, len  94, seq 182, edr   1
+[INFO: App       ] Sending request 16 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 241, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 241, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 155
+[INFO: TSCH-LOG  ] {asn 00.000030cd link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000030cd link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq 241, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 184
+[INFO: App       ] Received response 'hello 16' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000030dd link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 184, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 160, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00003225 link  0 397   0 133  0 ch 25} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 160, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00003226 link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 184, edr   0, dr   0
+[INFO: RPL       ] probing fe80::b287  last tx 2 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 283 to fe80::b287
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b287 21 79 (100)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b287 with seqno 242, queue 1 1, len 21 100
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b287, seqno 242, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b287, status 0, tx 1, new link metric 224
+[INFO: TSCH-LOG  ] {asn 00.00003244 link  1  17   0 16 135 ch 25} uc-1-0 tx LL-a885->LL-b287, len 100, seq 242, st 0  1
+[INFO: App       ] Sending request 17 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 243, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 243, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 152
+[INFO: TSCH-LOG  ] {asn 00.00003320 link  1  17   0 15 135 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00003320 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq 243, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 186
+[INFO: App       ] Received response 'hello 17' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00003330 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq 186, edr   0, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b287 0200.0000.0000.a885 21 79 (100)
+[INFO: TSCH      ] received from 0200.0000.0000.b287 with seqno 83
+[INFO: RPL       ] received a unicast-DIO from fe80::b287, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 298
+[INFO: TSCH-LOG  ] {asn 00.000034d9 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b287->LL-a885, len 100, seq  83, edr   1
+[INFO: App       ] Sending request 18 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 244, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 244, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 149
+[INFO: TSCH-LOG  ] {asn 00.00003573 link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00003573 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq 244, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 188
+[INFO: App       ] Received response 'hello 18' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00003583 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq 188, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.000035e3 link  2  31   0  0  1 ch 15} !failed to parse frame 21 47
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 161, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000036cc link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 161, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000036cd link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  51, edr  -1, dr   1
+[INFO: App       ] Sending request 19 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 245, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000037d7 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq 245, st 2  1
+[INFO: TSCH-LOG  ] {asn 00.000037e8 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq 245, st 2  2
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 245, status 0, tx 3
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 3, new link metric 172
+[INFO: TSCH-LOG  ] {asn 00.000037f9 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000037f9 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq 245, st 0  3, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 191
+[INFO: App       ] Received response 'hello 19' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00003809 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 191, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.000038cb link  2  31   0  0  1 ch 15} !failed to parse frame 21 47
+[INFO: RPL       ] sending a multicast-DIO with rank 300 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 245, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 162, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00003947 link  2  31   0  0  1 ch 15} bc-1-0 tx LL-a885->LL-NULL, len  94, seq 162, st 0  1
+[INFO: App       ] Sending request 20 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 246, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 246, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 167
+[INFO: TSCH-LOG  ] {asn 00.00003a2a link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00003a2a link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq 246, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 192
+[INFO: App       ] Received response 'hello 20' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00003a3a link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq 192, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.00003b56 link  2  31   0  0  1 ch 20} !failed to parse frame 14 35
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00003b74 link  0 397   0 134  0 ch 15} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 192, edr  -1, dr   1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 21 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 247, queue 1 2, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 247, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 163
+[INFO: TSCH-LOG  ] {asn 00.00003c7d link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00003c7d link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq 247, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 194
+[INFO: App       ] Received response 'hello 21' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00003c8d link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 194, edr   0, dr   0
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 163, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00003d00 link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 163, st 0  1
+[INFO: App       ] Sending request 22 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 248, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 248, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 159
+[INFO: TSCH-LOG  ] {asn 00.00003ed0 link  1  17   0 15 135 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00003ed0 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq 248, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 196
+[INFO: App       ] Received response 'hello 22' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00003ee0 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq 196, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 23 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 249, queue 1 2, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00004134 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq 249, st 2  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 249, status 0, tx 2
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 2, new link metric 168
+[INFO: TSCH-LOG  ] {asn 00.00004145 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00004145 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq 249, st 0  2, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 199
+[INFO: App       ] Received response 'hello 23' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00004155 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 199, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.00004183 link  2  31   0  0  1 ch 15} !failed to parse frame 14 35
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 164, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000041a7 link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 164, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000041a8 link  0 397   0 134  0 ch 15} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 199, edr   1, dr  -1
+[INFO: App       ] Sending request 24 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 250, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 250, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 164
+[INFO: TSCH-LOG  ] {asn 00.00004387 link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00004387 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq 250, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 200
+[INFO: App       ] Received response 'hello 24' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00004397 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq 200, edr   1, dr  -1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 25 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 251, queue 1 2, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 251, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 160
+[INFO: TSCH-LOG  ] {asn 00.000045da link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000045da link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq 251, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 202
+[INFO: App       ] Received response 'hello 25' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000045ea link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq 202, edr   0, dr   0
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 288 max-rank 1301, dioint 17, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   160 =>   288 -- 16 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  298,   224 =>   522 --  1   a   (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 165, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000464e link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 165, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000464f link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 202, edr   0, dr   0
+[INFO: App       ] Sending request 26 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 252, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 252, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 156
+[INFO: TSCH-LOG  ] {asn 00.0000482d link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.0000482d link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq 252, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 204
+[INFO: App       ] Received response 'hello 26' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000483d link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 204, edr   1, dr  -1
+[INFO: App       ] Sending request 27 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 253, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 253, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 153
+[INFO: TSCH-LOG  ] {asn 00.00004a91 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00004a91 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq 253, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 206
+[INFO: App       ] Received response 'hello 27' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00004aa1 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 206, edr   1, dr  -1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 166, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00004af5 link  0 397   0 133  0 ch 25} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 166, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00004c83 link  0 397   0 134  0 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00004c83 link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 206, edr   0, dr   0
+[INFO: App       ] Sending request 28 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 254, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 254, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 150
+[INFO: TSCH-LOG  ] {asn 00.00004ce4 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq 254, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 208
+[INFO: App       ] Received response 'hello 28' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00004cf4 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq 208, edr   0, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b086, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 128
+[INFO: RPL       ] refreshing lifetime
+[INFO: TSCH-LOG  ] {asn 00.00004dbe link  2  31   0  0  1 ch 20} bc-1-0 rx LL-b086->LL-NULL, len  94, seq 208, edr  -1, dr   1
+[INFO: App       ] Sending request 29 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 255, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 255, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 147
+[INFO: TSCH-LOG  ] {asn 00.00004f37 link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00004f37 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq 255, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 210
+[INFO: App       ] Received response 'hello 29' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00004f47 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq 210, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.0000500b link  2  31   0  0  1 ch 15} !failed to parse frame 14 35
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 167, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00005129 link  0 397   0 133  0 ch 25} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 167, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000512a link  0 397   0 134  0 ch 26} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.0000512a link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 210, edr   0, dr   0
+[INFO: App       ] Sending request 30 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 1, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000519b link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq   1, st 2  1
+[INFO: TSCH-LOG  ] {asn 00.000051ac link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq   1, st 2  2
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 1, status 0, tx 3
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 3, new link metric 170
+[INFO: TSCH-LOG  ] {asn 00.000051bd link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq   1, st 0  3, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 213
+[INFO: App       ] Received response 'hello 30' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000051cd link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 213, edr   1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b287 0200.0000.0000.a885 21 79 (100)
+[INFO: TSCH      ] received from 0200.0000.0000.b287 with seqno 97
+[INFO: RPL       ] received a unicast-DIO from fe80::b287, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 289
+[INFO: TSCH-LOG  ] {asn 00.00005365 link  1  17   0 14 135 ch 15} !dl-miss RxBeforeAck 131 133
+[INFO: TSCH-LOG  ] {asn 00.00005365 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b287->LL-a885, len 100, seq  97, edr   1
+[INFO: App       ] Sending request 31 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 2, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 2, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 165
+[INFO: TSCH-LOG  ] {asn 00.000053ee link  1  17   0 15 135 ch 26} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000053ee link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq   2, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 214
+[INFO: App       ] Received response 'hello 31' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000053fe link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq 214, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.00005467 link  2  31   0  0  1 ch 15} !failed to parse frame 0 0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 168, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000055d0 link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 168, st 0  1
+[INFO: App       ] Sending request 32 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 3, queue 1 1, len 21 47
+[INFO: RPL       ] probing fe80::b287  last tx 1 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 293 to fe80::b287
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b287 21 79 (100)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b287 with seqno 4, queue 1 2, len 21 100
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 3, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link met[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+ric 161
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b287, seqno 4, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b287, status 0, tx 1, new link metric 200
+[INFO: TSCH-LOG  ] {asn 00.00005641 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00005641 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq   3, st 0  1, dr   0
+[INFO: TSCH-LOG  ] {asn 00.00005642 link  1  17   0 16 135 ch 20} uc-1-0 tx LL-a885->LL-b287, len 100, seq   4, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 216
+[INFO: App       ] Received response 'hello 32' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00005651 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 216, edr   1, dr  -1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000575e link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 216, edr   0, dr   0
+[INFO: App       ] Sending request 33 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 5, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 5, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 157
+[INFO: TSCH-LOG  ] {asn 00.00005894 link  1  17   0 15 135 ch 15} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00005894 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq   5, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 218
+[INFO: App       ] Received response 'hello 33' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000058a4 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq 218, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.000059da link  2  31   0  0  1 ch 20} !failed to parse frame 21 100
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 34 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 6, queue 1 2, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00005af8 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq   6, st 2  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 6, status 0, tx 2
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 2, new link metric 166
+[INFO: TSCH-LOG  ] {asn 00.00005b09 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00005b09 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq   6, st 0  2, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 221
+[INFO: App       ] Received response 'hello 34' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00005b19 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 221, edr   0, dr   0
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 169, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00005c04 link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 169, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00005c05 link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 221, edr   0, dr   0
+[INFO: App       ] Sending request 35 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 7, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 7, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 162
+[INFO: TSCH-LOG  ] {asn 00.00005d4b link  1  17   0 15 135 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00005d4b link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq   7, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 222
+[INFO: App       ] Received response 'hello 35' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00005d5b link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq 222, edr   1, dr  -1
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 290 max-rank 1299, dioint 17, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   162 =>   290 -- 16 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  289,   200 =>   489 --  2   a   (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: App       ] Sending request 36 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 8, queue 1 1, len 21 47
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 8, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 158
+[INFO: TSCH-LOG  ] {asn 00.00005f9e link  1  17   0 15 135 ch 26} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00005f9e link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq   8, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 224
+[INFO: App       ] Received response 'hello 36' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00005fae link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq 224, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.00006007 link  2  31   0  0  1 ch 15} !failed to parse frame 21 47
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 170, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000060ab link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 170, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.000061d8 link  2  31   0  0  1 ch 25} !failed to parse frame 14 94
+[INFO: App       ] Sending request 37 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 9, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 9, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 155
+[INFO: TSCH-LOG  ] {asn 00.000061f1 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000061f1 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq   9, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 226
+[INFO: App       ] Received response 'hello 37' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00006201 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 226, edr   0, dr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00006239 link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 226, edr   0, dr   0
+[INFO: App       ] Sending request 38 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 10, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 10, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 152
+[INFO: TSCH-LOG  ] {asn 00.00006455 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00006455 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  10, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 228
+[INFO: App       ] Received response 'hello 38' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00006465 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 228, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.000064c0 link  2  31   0  0  1 ch 25} !failed to parse frame 21 47
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 171, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00006552 link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 171, st 0  1
+[INFO: App       ] Sending request 39 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 11, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 11, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 149
+[INFO: TSCH-LOG  ] {asn 00.000066a8 link  1  17   0 15 135 ch 15} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000066a8 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  11, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 230
+[INFO: App       ] Received response 'hello 39' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000066b8 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq 230, edr   0, dr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000066e0 link  0 397   0 134  0 ch 15} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 230, edr   0, dr   0
+[INFO: App       ] Sending request 40 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 12, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 12, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 146
+[INFO: TSCH-LOG  ] {asn 00.000068fb link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000068fb link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  12, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 232
+[INFO: App       ] Received response 'hello 40' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000690b link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq 232, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 41 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 13, queue 1 2, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 13, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 144
+[INFO: TSCH-LOG  ] {asn 00.00006b4e link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00006b4e link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  13, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 234
+[INFO: App       ] Received response 'hello 41' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00006b5e link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq 234, edr   1, dr  -1
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 172, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00006b86 link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 172, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 272 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 13, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 173, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00006c04 link  2  31   0  0  1 ch 25} bc-1-0 tx LL-a885->LL-NULL, len  94, seq 173, st 0  1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b287 0200.0000.0000.a885 21 79 (100)
+[INFO: TSCH      ] received from 0200.0000.0000.b287 with seqno 109
+[INFO: RPL       ] received a unicast-DIO from fe80::b287, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 277
+[INFO: TSCH-LOG  ] {asn 00.00006c3b link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b287->LL-a885, len 100, seq 109, edr  -1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00006d14 link  0 397   0 134  0 ch 15} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00006d14 link  0 397   0 134  0 ch 15} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 109, edr  -1, dr   1
+[INFO: App       ] Sending request 42 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 14, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 14, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 142
+[INFO: TSCH-LOG  ] {asn 00.00006db2 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  14, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 236
+[INFO: App       ] Received response 'hello 42' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00006dc2 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq 236, edr   0, dr   0
+[INFO: App       ] Sending request 43 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 15, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 15, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 140
+[INFO: TSCH-LOG  ] {asn 00.00007005 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.00007005 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  15, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 238
+[INFO: App       ] Received response 'hello 43' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00007015 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 238, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 174, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000071ba link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 174, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000071bb link  0 397   0 134  0 ch 20} drift -2 ppm (min/max delta seen: -1/1)
+[INFO: TSCH-LOG  ] {asn 00.000071bb link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 238, edr   1, dr  -1
+[INFO: App       ] Sending request 44 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 16, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 16, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 138
+[INFO: TSCH-LOG  ] {asn 00.00007258 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  16, st 0  1, dr   2
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 240
+[INFO: App       ] Received response 'hello 44' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00007268 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq 240, edr   1, dr  -1
+[INFO: App       ] Sending request 45 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 17, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000074bc link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  17, st 2  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 17, status 0, tx 2
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 2, new link metric 149
+[INFO: TSCH-LOG  ] {asn 00.000074cd link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.000074cd link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  17, st 0  2, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 243
+[INFO: App       ] Received response 'hello 45' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000074dd link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 243, edr   0, dr   0
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 277 max-rank 1290, dioint 18, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   149 =>   277 -- 16 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  277,   200 =>   477 --  2   a   (last tx 1 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: TSCH-LOG  ] {asn 00.00007519 link  2  31   0  0  1 ch 26} !failed to parse frame 0 0
+[INFO: TSCH-LOG  ] {asn 00.0000768d link  2  31   0  0  1 ch 26} !failed to parse frame 14 35
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 46 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 18, queue 1 2, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000770f link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  18, st 2  1
+[INFO: TSCH-LOG  ] {asn 00.00007720 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  18, st 2  2
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 18, status 0, tx 3
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 3, new link metric 172
+[INFO: TSCH-LOG  ] {asn 00.00007731 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00007731 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  18, st 0  3, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 245
+[INFO: App       ] Received response 'hello 46' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00007741 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 245, edr   0, dr   0
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 175, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000077ee link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 175, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000077ef link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 245, edr  -1, dr   1
+[INFO: App       ] Sending request 47 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 19, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 19, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 167
+[INFO: TSCH-LOG  ] {asn 00.00007962 link  1  17   0 15 135 ch 26} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00007962 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  19, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 246
+[INFO: App       ] Received response 'hello 47' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00007972 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq 246, edr  -1, dr   1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 48 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 20, queue 1 2, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 20, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 163
+[INFO: TSCH-LOG  ] {asn 00.00007bb5 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00007bb5 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  20, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 248
+[INFO: App       ] Received response 'hello 48' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00007bc5 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 248, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.00007c5d link  2  31   0  0  1 ch 26} !failed to parse frame 14 35
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 176, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00007c95 link  0 397   0 133  0 ch 25} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 176, st 0  1
+[INFO: App       ] Sending request 49 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 21, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 21, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 159
+[INFO: TSCH-LOG  ] {asn 00.00007e19 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00007e19 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  21, st 0  1, dr   1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00007e23 link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 248, edr   0, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 250
+[INFO: App       ] Received response 'hello 49' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00007e29 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 250, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.00007e8b link  2  31   0  0  1 ch 15} !failed to parse frame 21 47
+[INFO: TSCH-LOG  ] {asn 00.00007ee8 link  2  31   0  0  1 ch 25} !failed to parse frame 21 47
+[INFO: TSCH-LOG  ] {asn 00.00007f45 link  2  31   0  0  1 ch 26} !failed to parse frame 14 35
+[INFO: App       ] Sending request 50 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 22, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000806c link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  22, st 2  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 22, status 0, tx 2
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 2, new link metric 168
+[INFO: TSCH-LOG  ] {asn 00.0000807d link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000807d link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  22, st 0  2, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 253
+[INFO: App       ] Received response 'hello 50' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000808d link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq 253, edr  -1, dr   1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 177, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000813c link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 177, st 0  1
+[INFO: App       ] Sending request 51 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 23, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 23, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 164
+[INFO: TSCH-LOG  ] {asn 00.000082bf link  1  17   0 15 135 ch 20} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.000082bf link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  23, st 0  1, dr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000082ca link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 253, edr   0, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 254
+[INFO: App       ] Received response 'hello 51' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000082cf link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq 254, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.000083a1 link  2  31   0  0  1 ch 26} !failed to parse frame 21 47
+[INFO: App       ] Sending request 52 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 24, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 24, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 160
+[INFO: TSCH-LOG  ] {asn 00.00008512 link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00008512 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  24, st 0  1, dr   0
+[INFO: RPL       ] probing fe80::b287  last tx 1 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 288 to fe80::b287
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b287 21 79 (100)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b287 with seqno 25, queue 1 1, len 21 100
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 1
+[INFO: App       ] Received response 'hello 52' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00008522 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq   1, edr   0, dr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b287, seqno 25, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b287, status 0, tx 1, new link metric 182
+[INFO: TSCH-LOG  ] {asn 00.00008524 link  1  17   0 16 135 ch 25} uc-1-0 tx LL-a885->LL-b287, len 100, seq  25, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.000085cf link  2  31   0  0  1 ch 15} !failed to parse frame 14 35
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b287 0200.0000.0000.a885 21 79 (100)
+[INFO: TSCH      ] received from 0200.0000.0000.b287 with seqno 121
+[INFO: RPL       ] received a unicast-DIO from fe80::b287, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 280
+[INFO: TSCH-LOG  ] {asn 00.00008610 link  1  17   0 14 135 ch 20} !dl-miss RxBeforeAck 131 133
+[INFO: TSCH-LOG  ] {asn 00.00008610 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b287->LL-a885, len 100, seq 121, edr   0
+[INFO: App       ] Sending request 53 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 26, queue 1 2, len 21 47
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 178, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00008770 link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 178, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00008771 link  0 397   0 134  0 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00008771 link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 121, edr   1, dr  -1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 26, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 156
+[INFO: TSCH-LOG  ] {asn 00.00008776 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  26, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 3
+[INFO: App       ] Received response 'hello 53' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00008786 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq   3, edr   1, dr  -1
+[INFO: App       ] Sending request 54 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 27, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 27, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 153
+[INFO: TSCH-LOG  ] {asn 00.000089c9 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.000089c9 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  27, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 5
+[INFO: App       ] Received response 'hello 54' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000089d9 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq   5, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 55 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 28, queue 1 2, len 21 47
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 179, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00008c17 link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 179, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 28, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 150
+[INFO: TSCH-LOG  ] {asn 00.00008c1c link  1  17   0 15 135 ch 15} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00008c1c link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  28, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 7
+[INFO: App       ] Received response 'hello 55' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00008c2c link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq   7, edr   0, dr   0
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 278 max-rank 1290, dioint 18, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   150 =>   278 -- 16 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  280,   182 =>   462 --  3   a   (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00008da5 link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq   7, edr   1, dr  -1
+[INFO: App       ] Sending request 56 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 29, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 29, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 147
+[INFO: TSCH-LOG  ] {asn 00.00008e6f link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00008e6f link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  29, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 9
+[INFO: App       ] Received response 'hello 56' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00008e7f link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq   9, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.00008ee4 link  2  31   0  0  1 ch 25} !failed to parse frame 21 47
+[INFO: App       ] Sending request 57 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 30, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.000090d3 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  30, st 2  1
+[INFO: TSCH-LOG  ] {asn 00.000090e4 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  30, st 2  2
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 30, status 0, tx 3
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 3, new link metric 170
+[INFO: TSCH-LOG  ] {asn 00.000090f5 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.000090f5 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  30, st 0  3, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 12
+[INFO: App       ] Received response 'hello 57' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00009105 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  12, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 180, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000924b link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 180, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000924c link  0 397   0 134  0 ch 15} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  12, edr   0, dr   0
+[INFO: App       ] Sending request 58 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 31, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 31, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 165
+[INFO: TSCH-LOG  ] {asn 00.00009326 link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00009326 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  31, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 13
+[INFO: App       ] Received response 'hello 58' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00009336 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  13, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.0000939d link  2  31   0  0  1 ch 26} !failed to parse frame 21 47
+[INFO: TSCH-LOG  ] {asn 00.000093fa link  2  31   0  0  1 ch 20} !failed to parse frame 21 47
+[INFO: App       ] Sending request 59 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 32, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 32, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 161
+[INFO: TSCH-LOG  ] {asn 00.00009579 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00009579 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  32, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 15
+[INFO: App       ] Received response 'hello 59' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00009589 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  15, edr  -1, dr   1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 60 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 33, queue 1 2, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 33, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 157
+[INFO: TSCH-LOG  ] {asn 00.000097cc link  1  17   0 15 135 ch 15} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.000097cc link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  33, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 17
+[INFO: App       ] Received response 'hello 60' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.000097dc link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq  17, edr   0, dr   0
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 181, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000987f link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 181, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00009880 link  0 397   0 134  0 ch 15} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  17, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.000098b3 link  2  31   0  0  1 ch 15} !failed to parse frame 21 47
+[INFO: App       ] Sending request 61 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 34, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.00009a30 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  34, st 2  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 34, status 0, tx 2
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 2, new link metric 166
+[INFO: TSCH-LOG  ] {asn 00.00009a41 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00009a41 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  34, st 0  2, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 20
+[INFO: App       ] Received response 'hello 61' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00009a51 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  20, edr   0, dr   0
+[INFO: App       ] Sending request 62 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 35, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 35, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 162
+[INFO: TSCH-LOG  ] {asn 00.00009c83 link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00009c83 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  35, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 21
+[INFO: App       ] Received response 'hello 62' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00009c93 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq  21, edr   0, dr   0
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00009d27 link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  21, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 182, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00009eb3 link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 182, st 0  1
+[INFO: App       ] Sending request 63 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 36, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 36, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 158
+[INFO: TSCH-LOG  ] {asn 00.00009ed6 link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.00009ed6 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  36, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 23
+[INFO: App       ] Received response 'hello 63' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.00009ee6 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  23, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.00009f3d link  2  31   0  0  1 ch 26} !failed to parse frame 21 47
+[INFO: App       ] Sending request 64 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 37, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000a13a link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  37, st 2  1
+[INFO: TSCH-LOG  ] {asn 00.0000a14b link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  37, st 2  2
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 37, status 0, tx 3
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 3, new link metric 180
+[INFO: TSCH-LOG  ] {asn 00.0000a15c link  1  17   0 15 135 ch 15} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000a15c link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  37, st 0  3, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 26
+[INFO: App       ] Received response 'hello 64' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000a16c link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq  26, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.0000a2df link  2  31   0  0  1 ch 15} !failed to parse frame 14 35
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 183, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000a35a link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 183, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000a35b link  0 397   0 134  0 ch 20} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000a35b link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  26, edr   1, dr  -1
+[INFO: App       ] Sending request 65 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 38, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 38, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 174
+[INFO: TSCH-LOG  ] {asn 00.0000a38d link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  38, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 27
+[INFO: App       ] Received response 'hello 65' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000a39d link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  27, edr   1, dr  -1
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 302 max-rank 1290, dioint 18, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   174 =>   302 -- 16 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  280,   182 =>   462 --  3   a   (last tx 1 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: TSCH-LOG  ] {asn 00.0000a3f6 link  2  31   0  0  1 ch 20} !failed to parse frame 21 47
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b086, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 128
+[INFO: RPL       ] refreshing lifetime
+[INFO: TSCH-LOG  ] {asn 00.0000a5a8 link  2  31   0  0  1 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000a5a8 link  2  31   0  0  1 ch 25} bc-1-0 rx LL-b086->LL-NULL, len  94, seq 211, edr  -1, dr   1
+[INFO: App       ] Sending request 66 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 39, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 39, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 169
+[INFO: TSCH-LOG  ] {asn 00.0000a5e0 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  39, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 29
+[INFO: App       ] Received response 'hello 66' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000a5f0 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq  29, edr   0, dr   0
+[INFO: App       ] Sending request 67 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 40, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 40, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 164
+[INFO: TSCH-LOG  ] {asn 00.0000a833 link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000a833 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  40, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 31
+[INFO: App       ] Received response 'hello 67' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000a843 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq  31, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH-LOG  ] {asn 00.0000a90c link  2  31   0  0  1 ch 25} !failed to parse frame 0 0
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 184, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000a98e link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 184, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000a98f link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  31, edr   1, dr  -1
+[INFO: App       ] Sending request 68 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 41, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000aa97 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  41, st 2  1
+[INFO: TSCH-LOG  ] {asn 00.0000aaa8 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  41, st 2  2
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 41, status 0, tx 3
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 3, new link metric 186
+[INFO: TSCH-LOG  ] {asn 00.0000aab9 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000aab9 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  41, st 0  3, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 34
+[INFO: App       ] Received response 'hello 68' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000aac9 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  34, edr   1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b287 0000.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] received from 0200.0000.0000.b287 with seqno 65535
+[INFO: RPL       ] received a multicast-DIO from fe80::b287, instance_id 0, DAG ID fd00::b086, version 240, dtsn 240, rank 285
+[INFO: TSCH-LOG  ] {asn 00.0000ac13 link  2  31   0  0  1 ch 15} bc-1-0 rx LL-b287->LL-NULL, len  94, seq  34, edr   0
+[INFO: App       ] Sending request 69 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 42, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 42, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 180
+[INFO: TSCH-LOG  ] {asn 00.0000acea link  1  17   0 15 135 ch 26} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000acea link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  42, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 35
+[INFO: App       ] Received response 'hello 69' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000acfa link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  35, edr   0, dr   0
+[INFO: RPL       ] probing fe80::b287  last tx 1 min ago
+[INFO: RPL       ] sending a unicast-DIO with rank 308 to fe80::b287
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b287 21 79 (100)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b287 with seqno 43, queue 1 1, len 21 100
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b287, seqno 43, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b287, status 0, tx 1, new link metric 176
+[INFO: TSCH-LOG  ] {asn 00.0000ad0d link  1  17   0 16 135 ch 26} uc-1-0 tx LL-a885->LL-b287, len 100, seq  43, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000adc5 link  2  31   0  0  1 ch 26} !failed to parse frame 21 47
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 185, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000ae35 link  0 397   0 133  0 ch 25} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 185, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000ae36 link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 194, edr   0, dr   0
+[INFO: App       ] Sending request 70 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 44, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 44, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 174
+[INFO: TSCH-LOG  ] {asn 00.0000af3d link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000af3d link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  44, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 37
+[INFO: App       ] Received response 'hello 70' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000af4d link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  37, edr   0, dr   0
+[INFO: App       ] Sending request 71 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 45, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 45, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 169
+[INFO: TSCH-LOG  ] {asn 00.0000b190 link  1  17   0 15 135 ch 15} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000b190 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  45, st 0  1, dr  -1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 39
+[INFO: App       ] Received response 'hello 71' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000b1a0 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq  39, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.0000b27e link  2  31   0  0  1 ch 20} !failed to parse frame 14 94
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000b2dd link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  39, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 72 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 46, queue 1 2, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000b3f4 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  46, st 2  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 46, status 0, tx 2
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 2, new link metric 177
+[INFO: TSCH-LOG  ] {asn 00.0000b405 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000b405 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  46, st 0  2, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 42
+[INFO: App       ] Received response 'hello 72' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000b415 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  42, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.0000b44f link  2  31   0  0  1 ch 15} !failed to parse frame 21 47
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 186, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000b469 link  0 397   0 133  0 ch 25} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 186, st 0  1
+[INFO: App       ] Sending request 73 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 47, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 47, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 172
+[INFO: TSCH-LOG  ] {asn 00.0000b647 link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000b647 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  47, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 43
+[INFO: App       ] Received response 'hello 73' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000b657 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq  43, edr   1, dr  -1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 74 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 48, queue 1 2, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 48, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 167
+[INFO: TSCH-LOG  ] {asn 00.0000b89a link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000b89a link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  48, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 45
+[INFO: App       ] Received response 'hello 74' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000b8aa link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  45, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.0000b908 link  2  31   0  0  1 ch 25} !failed to parse frame 21 47
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 187, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000b910 link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 187, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000b911 link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  83, edr   0, dr   0
+[INFO: App       ] Sending request 75 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 49, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 49, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 163
+[INFO: TSCH-LOG  ] {asn 00.0000baed link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000baed link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  49, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 47
+[INFO: App       ] Received response 'hello 75' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000bafd link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  47, edr   0, dr   0
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 291 max-rank 1290, dioint 18, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   163 =>   291 -- 16 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  285,   176 =>   461 --  4   af  (last tx 0 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: App       ] Sending request 76 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 50, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 50, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 159
+[INFO: TSCH-LOG  ] {asn 00.0000bd51 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000bd51 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  50, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 49
+[INFO: App       ] Received response 'hello 76' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000bd61 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  49, edr   1, dr  -1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH-LOG  ] {asn 00.0000be1e link  2  31   0  0  1 ch 20} !failed to parse frame 0 0
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 188, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000bf44 link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 188, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000bf45 link  0 397   0 134  0 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000bf45 link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  49, edr   0, dr   0
+[INFO: App       ] Sending request 77 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 51, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 51, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 155
+[INFO: TSCH-LOG  ] {asn 00.0000bfa4 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  51, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 51
+[INFO: App       ] Received response 'hello 77' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000bfb4 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq  51, edr   1, dr  -1
+[INFO: App       ] Sending request 78 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 52, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 52, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 152
+[INFO: TSCH-LOG  ] {asn 00.0000c1f7 link  1  17   0 15 135 ch 20} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000c1f7 link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  52, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 53
+[INFO: App       ] Received response 'hello 78' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000c207 link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq  53, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.0000c2d7 link  2  31   0  0  1 ch 15} !failed to parse frame 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000c3ec link  0 397   0 134  0 ch 15} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000c3ec link  0 397   0 134  0 ch 15} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 107, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 79 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 53, queue 1 2, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 53, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 149
+[INFO: TSCH-LOG  ] {asn 00.0000c44a link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  53, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 55
+[INFO: App       ] Received response 'hello 79' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000c45a link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  55, edr   1, dr  -1
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 189, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000c578 link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 189, st 0  1
+[INFO: App       ] Sending request 80 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 54, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 54, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 146
+[INFO: TSCH-LOG  ] {asn 00.0000c6ae link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000c6ae link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  54, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 57
+[INFO: App       ] Received response 'hello 80' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000c6be link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  57, edr   1, dr  -1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000c893 link  0 397   0 134  0 ch 20} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000c893 link  0 397   0 134  0 ch 20} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  57, edr  -1, dr   1
+[INFO: App       ] Sending request 81 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 55, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 55, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 144
+[INFO: TSCH-LOG  ] {asn 00.0000c901 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  55, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 59
+[INFO: App       ] Received response 'hello 81' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000c911 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  59, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 190, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000ca1f link  0 397   0 133  0 ch 20} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 190, st 0  1
+[INFO: App       ] Sending request 82 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 56, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 56, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 142
+[INFO: TSCH-LOG  ] {asn 00.0000cb54 link  1  17   0 15 135 ch 15} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000cb54 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  56, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 61
+[INFO: App       ] Received response 'hello 82' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000cb64 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq  61, edr   1, dr  -1
+[INFO: App       ] Sending request 83 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 57, queue 1 1, len 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000cdb8 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  57, st 2  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 57, status 0, tx 2
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 2, new link metric 153
+[INFO: TSCH-LOG  ] {asn 00.0000cdc9 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000cdc9 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  57, st 0  2, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 64
+[INFO: App       ] Received response 'hello 83' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000cdd9 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  64, edr   0, dr   0
+[INFO: RPL       ] sending a multicast-DIO with rank 281 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 57, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 191, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000ce1a link  2  31   0  0  1 ch 20} bc-1-0 tx LL-a885->LL-NULL, len  94, seq 191, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: RPL       ] no neighbor needs probing
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 192, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000cec6 link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 192, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000cfeb link  2  31   0  0  1 ch 15} !failed to parse frame 14 35
+[INFO: App       ] Sending request 84 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 58, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 58, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 150
+[INFO: TSCH-LOG  ] {asn 00.0000d00b link  1  17   0 15 135 ch 20} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000d00b link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  58, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 65
+[INFO: App       ] Received response 'hello 84' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000d01b link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq  65, edr   0, dr   0
+[INFO: App       ] Sending request 85 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 59, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 59, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 147
+[INFO: TSCH-LOG  ] {asn 00.0000d25e link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000d25e link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  59, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 67
+[INFO: App       ] Received response 'hello 85' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000d26e link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  67, edr   1, dr  -1
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 275 max-rank 1290, dioint 18, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   147 =>   275 -- 16 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  285,   176 =>   461 --  4   af  (last tx 1 min ago)
+[INFO: RPL       ] nbr: end of list
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000d36e link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  67, edr  -1, dr   1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 86 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 60, queue 1 2, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 60, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 145
+[INFO: TSCH-LOG  ] {asn 00.0000d4b1 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000d4b1 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  60, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 69
+[INFO: App       ] Received response 'hello 86' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000d4c1 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  69, edr   1, dr  -1
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 193, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000d4fa link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 193, st 0  1
+[INFO: App       ] Sending request 87 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 61, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 61, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 143
+[INFO: TSCH-LOG  ] {asn 00.0000d715 link  1  17   0 15 135 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000d715 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  61, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 71
+[INFO: App       ] Received response 'hello 87' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000d725 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  71, edr   0, dr   0
+[INFO: TSCH-LOG  ] {asn 00.0000d78c link  2  31   0  0  1 ch 25} !failed to parse frame 21 47
+[INFO: TSCH-LOG  ] {asn 00.0000d7e9 link  2  31   0  0  1 ch 26} !failed to parse frame 21 47
+[INFO: App       ] Sending request 88 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 62, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 62, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 141
+[INFO: TSCH-LOG  ] {asn 00.0000d968 link  1  17   0 15 135 ch 15} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000d968 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  62, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 73
+[INFO: App       ] Received response 'hello 88' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000d978 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq  73, edr   1, dr  -1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000d9a2 link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  73, edr  -1, dr   1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 194, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000db2e link  0 397   0 133  0 ch 26} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 194, st 0  1
+[INFO: App       ] Sending request 89 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 63, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 63, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 139
+[INFO: TSCH-LOG  ] {asn 00.0000dbbb link  1  17   0 15 135 ch 20} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000dbbb link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  63, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 75
+[INFO: App       ] Received response 'hello 89' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000dbcb link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq  75, edr   1, dr  -1
+[INFO: App       ] Sending request 90 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 64, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 64, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 137
+[INFO: TSCH-LOG  ] {asn 00.0000de0e link  1  17   0 15 135 ch 26} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000de0e link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  64, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 77
+[INFO: App       ] Received response 'hello 90' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000de1e link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  77, edr   0, dr   0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 195, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000dfd5 link  0 397   0 133  0 ch 25} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 195, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000dfd6 link  0 397   0 134  0 ch 26} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000dfd6 link  0 397   0 134  0 ch 26} bc-0-0 rx LL-b086->LL-NULL, len  35, seq  77, edr   0, dr   0
+[INFO: App       ] Sending request 91 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 65, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 65, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 136
+[INFO: TSCH-LOG  ] {asn 00.0000e072 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  65, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 79
+[INFO: App       ] Received response 'hello 91' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000e082 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  79, edr   1, dr  -1
+[INFO: App       ] Sending request 92 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 66, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 66, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 135
+[INFO: TSCH-LOG  ] {asn 00.0000e2c5 link  1  17   0 15 135 ch 25} drift -1 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000e2c5 link  1  17   0 15 135 ch 25} uc-1-0 tx LL-a885->LL-b086, len  47, seq  66, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 81
+[INFO: App       ] Received response 'hello 92' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000e2d5 link  1  17   0 14 135 ch 15} uc-1-0 rx LL-b086->LL-a885, len  47, seq  81, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.0000e32c link  2  31   0  0  1 ch 25} !failed to parse frame 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000e47d link  0 397   0 134  0 ch 25} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000e47d link  0 397   0 134  0 ch 25} bc-0-0 rx LL-b086->LL-NULL, len  35, seq 129, edr  -1, dr   1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: App       ] Sending request 93 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 67, queue 1 2, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 67, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 134
+[INFO: TSCH-LOG  ] {asn 00.0000e518 link  1  17   0 15 135 ch 15} uc-1-0 tx LL-a885->LL-b086, len  47, seq  67, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 83
+[INFO: App       ] Received response 'hello 93' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000e528 link  1  17   0 14 135 ch 20} uc-1-0 rx LL-b086->LL-a885, len  47, seq  83, edr   0, dr   0
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 196, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000e609 link  0 397   0 133  0 ch 25} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 196, st 0  1
+[INFO: App       ] Sending request 94 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 68, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 68, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 133
+[INFO: TSCH-LOG  ] {asn 00.0000e76b link  1  17   0 15 135 ch 20} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000e76b link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  68, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 85
+[INFO: App       ] Received response 'hello 94' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000e77b link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq  85, edr   1, dr  -1
+[INFO: TSCH-LOG  ] {asn 00.0000e7e5 link  2  31   0  0  1 ch 26} !failed to parse frame 21 47
+[INFO: App       ] Sending request 95 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 69, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 69, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 132
+[INFO: TSCH-LOG  ] {asn 00.0000e9cf link  1  17   0 15 135 ch 20} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000e9cf link  1  17   0 15 135 ch 20} uc-1-0 tx LL-a885->LL-b086, len  47, seq  69, st 0  1, dr   1
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 87
+[INFO: App       ] Received response 'hello 95' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000e9df link  1  17   0 14 135 ch 26} uc-1-0 rx LL-b086->LL-a885, len  47, seq  87, edr   0, dr   0
+[INFO: RPL       ] nbr: own state, addr fd00::a885, DAG state: reachable, MOP 1 OCP 1 rank 260 max-rank 1284, dioint 19, nbr count 2 (Periodic)
+[INFO: RPL       ] nbr: fe80::b086  128,   132 =>   260 -- 16 rbafp (last tx 0 min ago)
+[INFO: RPL       ] nbr: fe80::b287  285,   176 =>   461 --  4   af  (last tx 2 min ago)
+[INFO: RPL       ] nbr: end of list
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 197, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000eab0 link  0 397   0 133  0 ch 15} bc-0-0 tx LL-a885->LL-NULL, len  35, seq 197, st 0  1
+[INFO: App       ] Sending request 96 to [INFO: App       ] 
+[INFO: RPL       ] creating hop-by-hop option
+[INFO: Frame 15.4] Out:  1 0200.0000.0000.b086 21 26 (47)
+[INFO: TSCH      ] send packet to 0200.0000.0000.b086 with seqno 70, queue 1 1, len 21 47
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 2 id 1e
+[INFO: TSCH      ] packet sent to 0200.0000.0000.b086, seqno 70, status 0, tx 1
+[INFO: RPL       ] packet sent to 0200.0000.0000.b086, status 0, tx 1, new link metric 131
+[INFO: TSCH-LOG  ] {asn 00.0000ec22 link  1  17   0 15 135 ch 26} drift -2 ppm (min/max delta seen: -1/2)
+[INFO: TSCH-LOG  ] {asn 00.0000ec22 link  1  17   0 15 135 ch 26} uc-1-0 tx LL-a885->LL-b086, len  47, seq  70, st 0  1, dr   0
+[INFO: Frame 15.4] In:  1 0200.0000.0000.b086 0200.0000.0000.a885 21 26 (47)
+[INFO: TSCH      ] received from 0200.0000.0000.b086 with seqno 89
+[INFO: App       ] Received response 'hello 96' from fd00::b086
+[INFO: TSCH-LOG  ] {asn 00.0000ec32 link  1  17   0 14 135 ch 25} uc-1-0 rx LL-b086->LL-a885, len  47, seq  89, edr   0, dr   0

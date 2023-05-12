@@ -3,14 +3,14 @@
 echo "lancement du scénario 1"
 
 #Nom de l'experience
-NAME_EXP="TSCH_LOGS_1V1"
+NAME_EXP="TSCH_LOGS_1V5"
 
 #Nom du fichier contenant le scénarios
 FILE_EXPERIENCE=tsch_kai
 
 #Parametre de l'experience 
-#Nb_coordinateur=1
-#Nb_sender=1
+Nb_coordinateur=1
+Nb_sender=5
 
 #Racine des scénarios
 RACINE=/senslab/users/wifi2023stras4
@@ -31,6 +31,10 @@ Duree=10
 RETOUR=$(ssh wifi2023stras4@strasbourg.iot-lab.info "iotlab-experiment submit -n $NAME_EXP -d $Duree \
 -l strasbourg,m3,30,$FIRMWARE_COORDINATOR \
 -l strasbourg,m3,31,$FIRMWARE_SENDER \
+-l strasbourg,m3,32,$FIRMWARE_SENDER \
+-l strasbourg,m3,33,$FIRMWARE_SENDER \
+-l strasbourg,m3,34,$FIRMWARE_SENDER \
+-l strasbourg,m3,35,$FIRMWARE_SENDER \
 ")
 ID=$(echo $RETOUR | grep -oP '(?<="id": )\d+')
 
@@ -41,6 +45,10 @@ ssh wifi2023stras4@strasbourg.iot-lab.info "iotlab-experiment wait -i $ID"
 ssh wifi2023stras4@strasbourg.iot-lab.info "mkdir $RACINE/LOGS/$ID"
 ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-30.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/coordinator.txt & " &
 ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-31.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender1.txt & " &
+ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-32.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender2.txt & " &
+ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-33.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender3.txt & " &
+ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-34.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender4.txt & " &
+ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-35.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender5.txt & " &
 echo "Demarrage de la récupération des logs en arriere plan"
 
 #Attente de la fin du scénario

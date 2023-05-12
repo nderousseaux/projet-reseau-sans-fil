@@ -1,0 +1,457 @@
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 242, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000002de link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 242, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 209, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 243, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000003c1 link  2  31   0  0  1 ch 26} bc-1-0 tx LL-b786->LL-NULL, len  94, seq 243, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 244, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000536 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 244, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 209, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 245, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000934 link  2  31   0  0  1 ch 25} bc-1-0 tx LL-b786->LL-NULL, len  94, seq 245, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 246, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000a4a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 246, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 247, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00000efa link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 247, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 248, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000013aa link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 248, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 209, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 249, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00001648 link  2  31   0  0  1 ch 25} bc-1-0 tx LL-b786->LL-NULL, len  94, seq 249, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 15, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
+[INFO: TSCH-LOG  ] {asn 00.0000186e link  1  17   0 15 136 ch 26} !failed to parse frame 21 100
+[INFO: TSCH-LOG  ] {asn 00.00001895 link  2  31   0  0  1 ch 26} !failed to parse frame 3 3
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 250, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00001986 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 250, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00001d36 link  1  17   0 15 136 ch 26} !failed to parse frame 21 46
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 251, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00001e9a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 251, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 252, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000023ae link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 252, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.000025b6 link  1  17   0 15 136 ch 26} !failed to parse frame 15 95
+[INFO: TSCH-LOG  ] {asn 00.000026a1 link  2  31   0  0  1 ch 26} !failed to parse frame 3 3
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 209, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 253, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000275b link  2  31   0  0  1 ch 15} bc-1-0 tx LL-b786->LL-NULL, len  94, seq 253, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000292a link  1  17   0 15 136 ch 26} !failed to parse frame 21 63
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 254, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000298a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 254, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.000029f6 link  1  17   0 15 136 ch 26} !failed to parse frame 21 100
+[INFO: TSCH-LOG  ] {asn 00.00002b79 link  2  31   0  0  1 ch 26} !failed to parse frame 21 83
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 255, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00002e9e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq 255, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 16, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 1, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000033b2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq   1, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 2, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000398e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq   2, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 3, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00003f06 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq   3, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.000041de link  1  17   0 15 136 ch 26} !failed to parse frame 3 3
+[INFO: TSCH-LOG  ] {asn 00.000042b9 link  2  31   0  0  1 ch 26} !failed to parse frame 21 100
+[INFO: TSCH-LOG  ] {asn 00.000042ee link  1  17   0 15 136 ch 26} !failed to parse frame 21 100
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 4, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000441a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq   4, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.000045da link  1  17   0 15 136 ch 26} !failed to parse frame 3 3
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 17, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
+[INFO: TSCH-LOG  ] {asn 00.0000472e link  1  17   0 15 136 ch 26} !failed to parse frame 3 3
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 5, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000492e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq   5, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00004a79 link  2  31   0  0  1 ch 26} !failed to parse frame 21 46
+[INFO: TSCH-LOG  ] {asn 00.00004bf6 link  1  17   0 15 136 ch 26} !failed to parse frame 21 83
+[INFO: TSCH-LOG  ] {asn 00.00004c69 link  2  31   0  0  1 ch 26} !failed to parse frame 3 3
+[INFO: TSCH-LOG  ] {asn 00.00004ce5 link  2  31   0  0  1 ch 26} !failed to parse frame 3 3
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 6, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00004dde link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq   6, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.00004f26 link  1  17   0 15 136 ch 26} !failed to parse frame 3 3
+[INFO: TSCH-LOG  ] {asn 00.00004fae link  1  17   0 15 136 ch 26} !failed to parse frame 21 100
+[INFO: TSCH-LOG  ] {asn 00.0000518a link  1  17   0 15 136 ch 26} !failed to parse frame 21 54
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 7, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00005356 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq   7, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.000053ee link  1  17   0 15 136 ch 26} !failed to parse frame 3 3
+[INFO: TSCH-LOG  ] {asn 00.00005521 link  2  31   0  0  1 ch 26} !failed to parse frame 21 83
+[INFO: TSCH-LOG  ] {asn 00.00005652 link  1  17   0 15 136 ch 26} !failed to parse frame 3 3
+[INFO: TSCH-LOG  ] {asn 00.000058b6 link  1  17   0 15 136 ch 26} !failed to parse frame 3 3
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 8, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00005996 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq   8, st 0  1
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 209, queue 1 1, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 9, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00005c46 link  2  31   0  0  1 ch 20} bc-1-0 tx LL-b786->LL-NULL, len  94, seq   9, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 17, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 10, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00005f72 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  10, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 11, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000064ea link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  11, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 12, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000699a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  12, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.000069c7 link  1  17   0 15 136 ch 20} bc-0-0 rx LL-9387->LL-NULL, len  35, seq  29, edr -17
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 13, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00006f76 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  13, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000706b link  1  17   0 15 136 ch 20} bc-0-0 rx LL-9687->LL-NULL, len  35, seq 107, edr -19
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 14, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00007426 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  14, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 18, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
+[INFO: TSCH-LOG  ] {asn 00.00007951 link  1  17   0 15 136 ch 25} !failed to parse frame 13 17
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 15, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00007a66 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  15, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 16, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00008042 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  16, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000806c link  1  17   0 15 136 ch 15} bc-0-0 rx LL-b384->LL-NULL, len  35, seq  31, edr -23
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 17, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.000085ba link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  17, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.00008710 link  1  17   0 15 136 ch 15} bc-0-0 rx LL-b384->LL-NULL, len  35, seq 228, edr -25
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 18, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00008b32 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  18, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 18, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 19, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00008fe2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  19, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000919f link  1  17   0 15 136 ch 20} bc-0-0 rx LL-9887->LL-NULL, len  35, seq 204, edr -26
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 20, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00009622 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  20, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 21, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.00009ad2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  21, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000a0c3 link  1  17   0 15 136 ch 20} !failed to parse frame 13 17
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 22, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000a112 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  22, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 18, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 23, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000a68a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  23, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000a844 link  1  17   0 15 136 ch 15} bc-0-0 rx LL-b384->LL-NULL, len  35, seq 157, edr -19
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 24, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000ab3a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  24, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000ac2f link  1  17   0 15 136 ch 20} bc-0-0 rx LL-9687->LL-NULL, len  35, seq 107, edr -19
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000afb4 link  1  17   0 15 136 ch 15} bc-0-0 rx LL-9588->LL-NULL, len  35, seq 200, edr -21
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 25, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000b0b2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  25, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000b2d3 link  1  17   0 15 136 ch 20} bc-0-0 rx LL-9887->LL-NULL, len  35, seq 160, edr -19
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 26, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000b6f2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  26, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000b810 link  2  31   0  0  1 ch 25} !failed to parse frame 0 0
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 18, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000bc30 link  1  17   0 15 136 ch 15} bc-0-0 rx LL-b384->LL-NULL, len  35, seq  98, edr -15
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: RPL       ] sending a multicast-DIO with rank 128 to ff02::1a
+[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 14 80 (94)
+[INFO: TSCH      ] send packet to ffff.ffff.ffff.ffff with seqno 209, queue 1 2, len 14 94
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 28, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000bd07 link  2  31   0  0  1 ch 15} bc-1-0 tx LL-b786->LL-NULL, len  94, seq  28, st 0  1
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 27, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000bd32 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  27, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000c01b link  1  17   0 15 136 ch 20} bc-0-0 rx LL-9687->LL-NULL, len  35, seq  31, edr -15
+[INFO: TSCH-LOG  ] {asn 00.0000c04c link  2  31   0  0  1 ch 25} !failed to parse frame 0 0
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 29, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000c246 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  29, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 30, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000c7be link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  30, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 31, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000ccd2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  31, st 0  1
+[DBG : Frame 15.4] ie type 0, current state 0
+[DBG : Frame 15.4] header ie: len 0 id 7e
+[DBG : Frame 15.4] list termination 1, look for payload IEs
+[DBG : Frame 15.4] ie type 1, current state 1
+[DBG : Frame 15.4] payload ie: len 17 id 1
+[DBG : Frame 15.4] entering MLME ie with len 17
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 6 id 1a
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1c
+[DBG : Frame 15.4] ie type 1, current state 2
+[DBG : Frame 15.4] long mlme ie len 1 id 9
+[DBG : Frame 15.4] ie type 0, current state 2
+[DBG : Frame 15.4] short mlme ie len 1 id 1b
+[DBG : Frame 15.4] end of MLME IE parsing
+[INFO: TSCH-LOG  ] {asn 00.0000d0e8 link  1  17   0 15 136 ch 15} bc-0-0 rx LL-9588->LL-NULL, len  35, seq  87, edr -16
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 32, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000d1e6 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  32, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 19, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 33, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000d75e link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  33, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 34, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000dd3a link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  34, st 0  1
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 35, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000e316 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  35, st 0  1
+[INFO: TSCH-LOG  ] {asn 00.0000e34d link  1  17   0 15 136 ch 25} !failed to parse frame 13 17
+[INFO: Frame 15.4] Out:  0 ffff.0000.0000.0000 14 19 (35)
+[INFO: TSCH      ] TSCH: enqueue EB packet 35 16
+[INFO: TSCH      ] packet sent to 0000.0000.0000.0000, seqno 36, status 0, tx 1
+[INFO: TSCH-LOG  ] {asn 00.0000e8f2 link  0 100   0 34  0 ch 26} bc-0-0 tx LL-b786->LL-NULL, len  35, seq  36, st 0  1
+[INFO: RPL       ] nbr: own state, addr fd00::b786, DAG state: reachable, MOP 1 OCP 1 rank 128 max-rank 65535, dioint 19, nbr count 0 (Periodic)
+[INFO: RPL       ] nbr: end of list
+[INFO: RPL       ] No routing links
