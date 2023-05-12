@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#sleep 720
+sleep 600
 git pull
 git add .
-git commit -m "1er jets des logs"
+git commit -m "j'ai ajouté de delai dans les logs"
 git push
 #sleep 1
 #shutdown now

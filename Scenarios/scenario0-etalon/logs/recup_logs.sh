@@ -6,7 +6,7 @@ echo "lancement du scénario 1"
 NAME_EXP="TSCH_LOGS_1V5"
 
 #Nom du fichier contenant le scénarios
-FILE_EXPERIENCE=tsch-orchestra
+FILE_EXPERIENCE=tsch_kai
 
 #Parametre de l'experience 
 Nb_coordinateur=1
@@ -48,7 +48,7 @@ ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-31.strasbourg.iot-lab.info 200
 ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-32.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender2.txt & " &
 ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-33.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender3.txt & " &
 ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-34.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender4.txt & " &
-ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-35.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender4.txt & " &
+ssh wifi2023stras4@strasbourg.iot-lab.info "nc m3-35.strasbourg.iot-lab.info 20000 > $RACINE/LOGS/$ID/sender5.txt & " &
 echo "Demarrage de la récupération des logs en arriere plan"
 
 #Attente de la fin du scénario
