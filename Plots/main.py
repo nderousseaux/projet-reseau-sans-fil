@@ -14,17 +14,17 @@ def analyse_nb_senders(path):
 		Scenario(path + "/s1-nb-senders/10", 10, TSCH, 397, 600),
 	]
 	
-	# On fait un histogramme de la consommation moyenne des senders get_power_mean_senders()
-	plt.bar([str(s.nbSenders) for s in scenarios], [s.get_power_mean_senders() for s in scenarios])
+	# # On fait un histogramme de la consommation moyenne des senders get_power_mean_senders()
+	# plt.bar([str(s.nbSenders) for s in scenarios], [s.get_power_mean_senders() for s in scenarios])
 
-	# Echelle logarithmique
-	plt.yscale("log")
-	# Titre
-	plt.title("Consommation moyenne des senders en fonction du nombre de senders")
+	# # Echelle logarithmique
+	# plt.yscale("log")
+	# # Titre
+	# plt.title("Consommation moyenne des senders en fonction du nombre de senders")
 
-	# On affiche les labels
-	plt.xlabel("Nombre de senders")
-	plt.ylabel("Consommation moyenne des senders (W)")
+	# # On affiche les labels
+	# plt.xlabel("Nombre de senders")
+	# plt.ylabel("Consommation moyenne des senders (W)")
 
 	# On affiche le graphique
 	plt.show()
@@ -69,14 +69,15 @@ def analyse_size_slot(path):
 
 
 if __name__ == "__main__":	
-	path = sys.argv[1]
-
+	# On écrit en dur le scénario étalon
 	# scenario_etalon = Scenario(path + "/s0-etalon", 5, TSCH, 397, 600)
-	scenario_etalon = Scenario(path + "/s1-nb-senders/10", 10, TSCH, 397, 600)
 
-	# On affiche le débit utile 
-	for n in scenario_etalon.nodes_logs:
-		print(n.get_useful_throughput())
+	# # On analyse le nombre de senders
+	# analyse_nb_senders(path)
 
-	# analyse_size_slot(path)
+	# Exemple
+	s = Scenario("Scenario/s1-nb-senders/2", 2, TSCH, 397, 600)
+
+	print(s)
+
 

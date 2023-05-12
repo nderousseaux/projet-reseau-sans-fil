@@ -122,6 +122,26 @@ class Scenario:
 		# On calcule la consommation totale
 		return sum([node.get_consumption() for node in self.nodes_power if node.role == COORDINATOR])
 	
+	def get_mean_useful_throughput(self):
+		# On calcule la moyenne du débit utile
+		return sum([node.get_useful_throughput() for node in self.nodes_logs]) / len(self.nodes_logs)
+	
+	def get_mean_useful_throughput_senders(self):
+		# On calcule la moyenne du débit utile
+		return sum([node.get_useful_throughput() for node in self.nodes_logs if node.role == SENDER]) / self.nbSenders
+	
+	def get_mean_useful_throughput_coordinator(self):
+		# On calcule la moyenne du débit utile
+		return sum([node.get_useful_throughput() for node in self.nodes_logs if node.role == COORDINATOR])
+	
+	def get_useful_throughput(self):
+		# On calcule la somme du débit utile
+		return sum([node.get_useful_throughput() for node in self.nodes_logs if node.role == SENDER])
+
+	def get_mean_loss_rate(self):
+		# On calcule la moyenne du taux de perte (uniquement sur les noeuds envoyeurs)
+		return sum([node.get_loss_rate() for node in self.nodes_logs if node.role == SENDER]) / self.nbSenders
+
 	def __str__(self):
 		string = "====== " + self.path + " ======\n"
 		string += "Nb nodes: " + str(len(self.nodes_power)) + "\n"
@@ -140,4 +160,11 @@ class Scenario:
 		string += "Consumption senders: " + str(self.get_consumption_senders()) + " Wh\n"
 		string += "Consumption mean senders: " + str(self.get_consumption_mean_senders()) + " Wh\n"
 		string += "Consumption coordinator: " + str(self.get_consumption_coordinator()) + " Wh\n"
+
+		string += "\n=== Network ===\n"
+		string += "Mean useful throughput: " + str(self.get_mean_useful_throughput()) + " B/s\n"
+		string += "Mean useful throughput senders: " + str(self.get_mean_useful_throughput_senders()) + " B/s\n"
+		string += "Mean useful throughput coordinator: " + str(self.get_mean_useful_throughput_coordinator()) + " B/s\n"
+		string += "Useful throughput senders: " + str(self.get_useful_throughput()) + " B/s\n"
+		string += "Mean loss rate: " + str(self.get_mean_loss_rate()) + " %\n"
 		return string

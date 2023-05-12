@@ -53,18 +53,38 @@ class Node:
 			# On cherche les paquets de type data 
 			# Le premier mot après '}': 1
 			for l in lines:
-				# Le mot juste après len est la taille du paquet
-				l = l.split("}")[1]
+				try:
+					# Le mot juste après len est la taille du paquet
+					l = l.split("}")[1]
 
-				# On regarde si la taille est mentionnée
-				if "len" in l:
-					# On regarde si le paquet est de type data
 					if l.split("-")[1] == "1":
-						size = l.split("len ")[1].split(",")[0]
-						data += int(size)
+						if "len" in l:
+							size = l.split("len ")[1].split(",")[0]
+							data += int(size)
+				except:
+					pass
 		
 		# On calcule le débit utile en ko/s
 		return data * 8 / self.time / 1000
 		
 	def __str__(self):
 		return self.name + " (" + self.role + ")"
+	
+	def get_loss_rate(self):
+
+		# On ouvre le fichier
+		with open(self.data, "r") as f:
+			# On compte le nombre de ligne ou il y a st 0
+			# On compte le nombre de ligne ou il y a st 2
+
+			no_st0 = 0
+			no_st2 = 0
+
+			for l in f:
+				if "st 0" in l:
+					no_st0 += 1
+				elif "st 2" in l:
+					no_st2 += 1
+			
+		# On calcule le taux de perte
+		return no_st2 / (no_st0 + no_st2)
